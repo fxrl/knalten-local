@@ -1,6 +1,6 @@
 <?php 
 
-require_once('bs4navwalker.php');
+require_once('class-wp-bootstrap-navwalker.php');
 
 // enqeue functions
 

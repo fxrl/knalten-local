@@ -25,18 +25,16 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <?php
-            wp_nav_menu([
-            'menu'            => 'primary',
-            'theme_location'  => 'menu-1',
-            'container'       => 'div',
-            'container_id'    => 'navbarCollapse',
-            'container_class' => 'collapse navbar-collapse',
-            'menu_id'         => false,
-            'menu_class'      => 'navbar-nav mr-auto',
-            'depth'           => 0,
-            'fallback_cb'     => 'bs4navwalker::fallback',
-            'walker'          => new bs4navwalker()
-            ]);
-        ?>
+        <?php /* Primary navigation */
+wp_nav_menu( array(
+  'menu' => 'top_menu',
+  'depth' => 2,
+  'container' => 'div',
+    'container_id' => 'navbarCollapse',
+    'container_class' => 'collapse navbar-collapse',
+  'menu_class' => 'navbar-nav mr-auto',
+  //Process nav menu using our custom nav walker
+  'walker' => new wp_bootstrap_navwalker())
+);
+?>
     </nav>
