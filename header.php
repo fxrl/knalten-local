@@ -27,14 +27,14 @@
         </button>
         <?php /* Primary navigation */
 wp_nav_menu( array(
-  'menu' => 'top_menu',
-  'depth' => 2,
-  'container' => 'div',
+    'menu' => 'top_menu',
+    'depth' => 2,
+    'container' => 'div',
     'container_id' => 'navbarCollapse',
     'container_class' => 'collapse navbar-collapse',
-  'menu_class' => 'navbar-nav mr-auto',
-  //Process nav menu using our custom nav walker
-  'walker' => new wp_bootstrap_navwalker())
+    'menu_class' => 'navbar-nav mr-auto',
+    //Process nav menu using our custom nav walker
+    'walker' => new wp_bootstrap_navwalker())
 );
 ?>
-    </nav>
+</nav>
