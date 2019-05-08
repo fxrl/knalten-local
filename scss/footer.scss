@@ -1,0 +1,14 @@
+footer {
+    background: $light-green;
+}
+
+.footer__map {
+    padding: 0;
+}
+
+.footer__menu {
+    margin: $m 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

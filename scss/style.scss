@@ -1,2 +1,14 @@
 @import './variables.scss';
 @import './index.scss';
+@import './footer.scss';
+
+h1, h2 {
+    font-family: 'Amatic SC';
+    font-weight: 700;
+    text-align: center;
+}
+
+p {
+    font-family: 'Lato';
+    font-weight: 400;
+}
