@@ -78,6 +78,7 @@
 		<div class="col-md-6">
 			<h2>Skicka en förfråga om grönsakasse
 			</h2>
+			<?php echo do_shortcode('[contact-form-7 id="45" title="soniasform"]'); ?>
 
 		</div>
 	</div>

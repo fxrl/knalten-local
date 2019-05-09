@@ -1,58 +1,58 @@
 // hero section
 .hero {
-   img {
-       width: 100%;
-   }
-   .col-12 {
-       padding: 0;
-   }
+  img {
+    width: 100%;
+  }
+  .col-12 {
+    padding: 0;
+  }
 }
 
 // welcome section
 
 .welcome {
-    margin: $l 0;
-    text-align: center;
+  margin: $l 0;
+  text-align: center;
 
-    h1 {
-        font-size: 5rem;
-        color: $green;
-    }
+  h1 {
+    font-size: 5rem;
+    color: $green;
+  }
 }
 
 .welcome__certificates {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 
-    img {
-        padding: $xs;
-    }
+  img {
+    padding: $xs;
+  }
 }
 
 // news section
 
 .latest-news-wrapper {
-    width: 100vw;
-    padding: $l 0;
-    background: $rose;
+  width: 100vw;
+  padding: $l 0;
+  background: $rose;
 }
 
 .latest-news {
-    h2 {
-        font-size: $l;
-        color: white;
-    }
+  h2 {
+    font-size: $l;
+    color: white;
+  }
 }
 
 .card {
-    margin: $s 0;
+  margin: $s 0;
 
-    .card-title {
-        font-weight: 700;
-        text-transform: capitalize;
-    }
+  .card-title {
+    font-weight: 700;
+    text-transform: capitalize;
+  }
 
-    img {
-        width: 100%;
-    }
+  img {
+    width: 100%;
+  }
 }

@@ -12,7 +12,7 @@
 </div>
 
 <!-- vegetables general info section -->
-<div class="container welcome">
+<div class="container headache">
 	<div class="row">
 		<div class="col-md-6">
 			<h1> GRÖNSAKER</h1>
