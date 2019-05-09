@@ -1,14 +1,16 @@
-@import './variables.scss';
-@import './index.scss';
-@import './footer.scss';
+@import "./variables.scss";
+@import "./index.scss";
+@import "./footer.scss";
+@import "./vegetables.scss";
 
-h1, h2 {
-    font-family: 'Amatic SC';
-    font-weight: 700;
-    text-align: center;
+h1,
+h2 {
+  font-family: "Amatic SC";
+  font-weight: 700;
+  text-align: center;
 }
 
 p {
-    font-family: 'Lato';
-    font-weight: 400;
+  font-family: "Lato";
+  font-weight: 400;
 }
