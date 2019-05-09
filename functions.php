@@ -18,4 +18,24 @@ function themebs_enqueue_styles() {
   add_action( 'wp_enqueue_scripts', 'themebs_enqueue_scripts');
 
 
+// Our custom post type function
+function create_posttype() {
+ 
+  register_post_type( 'question',
+  // CPT Options
+      array(
+          'labels' => array(
+              'name' => __( 'Questions' ),
+              'singular_name' => __( 'Question' )
+          ),
+          'public' => true,
+          'has_archive' => true
+      )
+  );
+}
+// Hooking up our function to theme setup
+add_action( 'init', 'create_posttype' );
+
+
+
 ?>

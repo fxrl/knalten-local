@@ -34,36 +34,55 @@
 
 </div>
 
-<!-- latest news section -->
+<!-- faq section -->
 <section class='latest-news-wrapper'>
   <div class="container latest-news">
     <div class="row">
         <div class="col-12">
-          <h2>Latest News</h2>
-        </div>
+          <h2>Vanliga Frågor</h2>
+
+          <!-- accordion -->
+          <div class="accordion" id="accordionExample">
           <!-- the loop -->
-          <?php if ( have_posts() ) : while ( have_posts() ) :   the_post(); ?>
-          <div class="col-md-4">
-            <div class="card">
-              <img class="card-img-top" src="https://via.placeholder.com/100" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">		
+          <?php 
+            $args = array( 
+              'post_type' => 'question'
+            );
+          $the_query = new WP_Query( $args );
+            if ( $the_query->have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+          <div class="card">
+              <div class="card-header" id="heading<?php the_id(); ?>">
+                <h2 class="mb-0">
+                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse<?php the_id(); ?>" aria-expanded="true" aria-controls="collapse<?php the_id(); ?>">
                     <?php the_title(); ?>
-                </h5>
-                <p class="card-text">	<?php the_content(); ?></p>
-                <a href="<?php the_permalink() ?>">Read More</a>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </button>
+                </h2>
+              </div>
+
+              <div id="collapse<?php the_id(); ?>" class="collapse show" aria-labelledby=""heading<?php the_id(); ?>" data-parent="#accordionExample">
+                <div class="card-body">
+                  <?php the_content(); ?>
+                </div>
               </div>
             </div>
-          </div>
       <?php endwhile; else: ?>
       <p>There no posts to show</p>
       <?php endif; ?>
+          </div>
+        </div>
     </div>
   </div>
 </section>
 
-
+<!-- contact form -->
+<div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2>Vill Veta Mer</h2>
+        <h3>Skicka oss et e-mail</h3>
+      </div>
+    </div>
+</div>
 
 
 <!-- footer -->
