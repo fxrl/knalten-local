@@ -23,9 +23,7 @@
 					<div class="col-12">
 						<img src='https://via.placeholder.com/1000x700'>
 					</div>
-
 				</div>
-
 			</div>
 			<button class='btn btn-primary'>Beställa</button>
 
