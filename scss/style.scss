@@ -2,16 +2,31 @@
 @import "./index.scss";
 @import "./footer.scss";
 @import "./vegetables.scss";
+@import "./menu.scss";
+@import "./markets.scss";
+@import "./contact.scss";
 
-h1,
-h2 {
+h1, h2 {
   font-family: "Amatic SC";
   font-weight: 700;
   text-align: center;
 }
 
 p {
-  font-family: "Amaric SC";
+  font-family: "Lato";
   font-weight: 400;
 }
 
+
+// button
+.btn-primary {
+  background-color: $rose;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 700;
+
+  &:hover {
+    border: none;
+    background: $green;
+  }
+}

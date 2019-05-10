@@ -77,16 +77,123 @@ footer {
   padding: 0.5rem;
 }
 
-h1,
-h2 {
+.custom-toggler.navbar-toggler {
+  border-color: #5B8F26;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(91,143,38,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.bg-light {
+  background: white !important;
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #5B8F26;
+  font-family: "Amatic SC";
+  font-size: 2rem;
+  text-align: center;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #F89F8B;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: #F89F8B;
+}
+
+.navbar-nav .dropdown-menu {
+  text-align: center;
+  border: none;
+}
+
+.dropdown-item {
+  font-family: "Lato";
+  color: #3D3D3D;
+}
+
+.markets {
+  margin-bottom: 3rem;
+}
+.markets h1 {
+  color: #5B8F26;
+  font-size: 3rem;
+}
+.markets h2 {
+  color: #F89F8B;
+}
+
+.markets__title {
+  margin: 2rem 0;
+}
+
+.markets__card-body {
+  text-align: center;
+  background: #5B8F26;
+  color: white;
+}
+.markets__card-body a {
+  text-decoration: underline;
+  color: #3D3D3D;
+}
+.markets__card-body a:hover {
+  color: white;
+  transition: ease-in-out 300ms;
+}
+
+.card-title {
+  text-transform: uppercase !important;
+}
+
+.contact h1 {
+  color: #5B8F26;
+  font-family: 3rem;
+}
+
+.contact__info {
+  margin: 3rem 0;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  border: 2px solid #5B8F26;
+}
+.contact__info h3 {
+  font-family: "Lato";
+  font-size: 2rem;
+  color: #5B8F26;
+  font-weight: 700;
+}
+.contact__info ul {
+  padding: 0;
+}
+.contact__info li {
+  list-style: none;
+}
+
+h1, h2 {
   font-family: "Amatic SC";
   font-weight: 700;
   text-align: center;
 }
 
 p {
-  font-family: "Amaric SC";
+  font-family: "Lato";
   font-weight: 400;
+}
+
+.btn-primary {
+  background-color: #F89F8B;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.btn-primary:hover {
+  border: none;
+  background: #5B8F26;
 }
 
 /*# sourceMappingURL=style.css.map */

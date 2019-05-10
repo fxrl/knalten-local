@@ -30,7 +30,7 @@ function create_posttype() {
               'singular_name' => __( 'Question' )
           ),
           'public' => true,
-          'has_archive' => true
+          'has_archive' => false
       )
   );
 

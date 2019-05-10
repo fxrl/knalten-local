@@ -1,0 +1,37 @@
+.markets {
+
+    margin-bottom: $l;
+
+    h1 {
+        color: $green;
+        font-size: $l;
+    }
+
+    h2 {
+        color: $rose;
+    }
+}
+
+.markets__title {
+    margin: 2rem 0;
+}
+
+.markets__card-body {
+    text-align: center;
+    background: $green;
+    color: white;
+
+    a {
+        text-decoration: underline;
+        color: $dark;
+
+        &:hover {
+            color: white;
+            transition: ease-in-out 300ms;
+        }
+    }
+}
+
+.card-title {
+    text-transform: uppercase !important;
+}

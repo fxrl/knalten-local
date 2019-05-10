@@ -14,7 +14,7 @@
 <!-- welcome section -->
 <div class="container contact">
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-12">
       <h1>Kontakt</h1>
     </div>
   </div>
