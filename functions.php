@@ -33,6 +33,30 @@ function create_posttype() {
           'has_archive' => false
       )
   );
+  //monthly veggies 
+  register_post_type( 'Monthly-Vegetable',
+  // CPT Options
+  array(
+    'labels' => array(
+        'name' => __( 'Monthly-Vegetables' ),
+        'singular_name' => __( 'Monthly-Vegetable' )
+    ),
+    'public' => true,
+    'has_archive' => true
+  )
+);
+//monthly veggie bags
+register_post_type( 'Vegetable-Bag',
+  // CPT Options
+  array(
+    'labels' => array(
+        'name' => __( 'Vegetable-Bags' ),
+        'singular_name' => __( 'Vegetable-Bag' )
+    ),
+    'public' => true,
+    'has_archive' => true
+  )
+);
 
   // försäljningställe
   register_post_type( 'market',
@@ -52,4 +76,3 @@ add_action( 'init', 'create_posttype' );
 
 
 
-?>
