@@ -18,3 +18,48 @@
     padding: $xs;
   }
 }
+
+.monthly-vegetable-wrapper {
+  width: 100vw;
+  padding: $l 0;
+}
+
+.monthly-vegetable {
+  h2 {
+    font-size: $l;
+    color: $green;
+  }
+}
+
+.card {
+  margin: $s 0;
+
+  .card-title {
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+  .veggie {
+    background-color: none !important;
+    border: 2px solid $green;
+  }
+  .veggieButton {
+    font-size: $l;
+    color: $dark;
+    text-align: left !important;
+    font-family: "Amatic SC";
+    font-weight: 700;
+  }
+  .veggieButton:hover {
+    color: $rose;
+    text-decoration: none !important;
+  }
+  .veggiebg {
+    border: 2px solid $green !important;
+    background: $light-green;
+    margin: 12px;
+  }
+
+  img {
+    width: 100%;
+  }
+}

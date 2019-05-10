@@ -60,6 +60,38 @@ footer {
   .headache__certificates img {
     padding: 0.5rem; }
 
+.monthly-vegetable-wrapper {
+  width: 100vw;
+  padding: 3rem 0; }
+
+.monthly-vegetable h2 {
+  font-size: 3rem;
+  color: #5B8F26; }
+
+.card {
+  margin: 1rem 0; }
+  .card .card-title {
+    font-weight: 700;
+    text-transform: capitalize; }
+  .card .veggie {
+    background-color: none !important;
+    border: 2px solid #5B8F26; }
+  .card .veggieButton {
+    font-size: 3rem;
+    color: #3D3D3D;
+    text-align: left !important;
+    font-family: "Amatic SC";
+    font-weight: 700; }
+  .card .veggieButton:hover {
+    color: #F89F8B;
+    text-decoration: none !important; }
+  .card .veggiebg {
+    border: 2px solid #5B8F26 !important;
+    background: #CFDBC6;
+    margin: 12px; }
+  .card img {
+    width: 100%; }
+
 h1,
 h2 {
   font-family: "Amatic SC";

@@ -32,10 +32,31 @@ function create_posttype() {
           'has_archive' => true
       )
   );
+  register_post_type( 'Monthly-Vegetable',
+  // CPT Options
+  array(
+    'labels' => array(
+        'name' => __( 'Monthly-Vegetables' ),
+        'singular_name' => __( 'Monthly-Vegetable' )
+    ),
+    'public' => true,
+    'has_archive' => true
+  )
+);
+register_post_type( 'Vegetable-Bag',
+  // CPT Options
+  array(
+    'labels' => array(
+        'name' => __( 'Vegetable-Bags' ),
+        'singular_name' => __( 'Vegetable-Bag' )
+    ),
+    'public' => true,
+    'has_archive' => true
+  )
+);
 }
 // Hooking up our function to theme setup
 add_action( 'init', 'create_posttype' );
 
 
 
-?>
