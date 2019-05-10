@@ -18,9 +18,10 @@ function themebs_enqueue_styles() {
   add_action( 'wp_enqueue_scripts', 'themebs_enqueue_scripts');
 
 
-// Our custom post type function
+// custom post types
 function create_posttype() {
  
+  // faq post type
   register_post_type( 'question',
   // CPT Options
       array(
@@ -30,6 +31,19 @@ function create_posttype() {
           ),
           'public' => true,
           'has_archive' => true
+      )
+  );
+
+  // försäljningställe
+  register_post_type( 'market',
+  // CPT Options
+      array(
+          'labels' => array(
+              'name' => __( 'Försäljningställen' ),
+              'singular_name' => __( 'Försäljningställ' )
+          ),
+          'public' => true,
+          'has_archive' => false
       )
   );
 }
