@@ -33,7 +33,7 @@ function create_posttype() {
           'has_archive' => true
       )
   );
-<<<<<<< HEAD
+  //monthly veggies 
   register_post_type( 'Monthly-Vegetable',
   // CPT Options
   array(
@@ -45,6 +45,7 @@ function create_posttype() {
     'has_archive' => true
   )
 );
+//monthly veggie bags
 register_post_type( 'Vegetable-Bag',
   // CPT Options
   array(
@@ -56,7 +57,6 @@ register_post_type( 'Vegetable-Bag',
     'has_archive' => true
   )
 );
-=======
 
   // försäljningställe
   register_post_type( 'market',
@@ -70,7 +70,6 @@ register_post_type( 'Vegetable-Bag',
           'has_archive' => false
       )
   );
->>>>>>> af7f9a57c6972573bab38b456f22b477e0065c64
 }
 // Hooking up our function to theme setup
 add_action( 'init', 'create_posttype' );
