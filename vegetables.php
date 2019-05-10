@@ -51,7 +51,7 @@
           $the_query = new WP_Query( $args );
             if ( $the_query->have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
 					<div class="card">
-						<div class="veggie" id="heading<?php the_id(); ?>">
+						<div class="veggieCardHeader" id="heading<?php the_id(); ?>">
 							<button class="btn btn-link veggieButton" type="button" data-toggle="collapse" data-target="#collapse<?php the_id(); ?>"
 							 aria-expanded="true" aria-controls="collapse<?php the_id(); ?>">
 								<?php the_title(); ?>

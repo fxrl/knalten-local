@@ -56,37 +56,76 @@
 </div>
 
 <!-- gear carts  section -->
-<section class='latest-news-wrapper'>
-	<div class="container latest-news">
-		<div class="row">
-			<div class="col-12">
-				<h2>Vi erbjuder 4 olika storlekar</h2>
-			</div>
-			<!-- the loop -->
-			<?php if ( have_posts() ) : while ( have_posts() ) :   the_post(); ?>
-			<div class="col-md-4">
-				<div class="card">
-					<img class="card-img-top" src="https://via.placeholder.com/100" alt="Card image cap">
-					<div class="card-body">
-						<h5 class="card-title">
-							<?php the_title(); ?>
-						</h5>
-						<p class="card-text">
-							<?php the_content(); ?>
-						</p>
-						<a href="<?php the_permalink() ?>">Read More</a>
-						<p class="card-text">
-							<small class="text-muted">Last updated 3 mins ago</small>
-						</p>
-					</div>
-				</div>
-			</div>
-			<?php endwhile; else: ?>
-			<p>There no posts to show</p>
-			<?php endif; ?>
+
+<div class="container">
+	<div class="row gearCarts">
+		<div class="col-12">
+			<h2>Vi erbjuder 4 olika storlekar</h2>
 		</div>
 	</div>
-</section>
+
+</div>
+<div class="scrolling-wrapper-flexbox">
+	<div class="card test" style="width: 18rem;">
+		<img class="card-img-top" src="https://via.placeholder.com/300" alt="Card image cap">
+		<div class="card-body">
+			<h5 class="card-title">3 Tänder</h5>
+			<p class="card-text">Att förbereda 35cm såbädd, lufta och luckra upp jord, skörda potatis, morötter, med mera.
+			</p>
+			<a href="#" class="btn gearTag">
+				<strong>Vikt</strong> 3.1 kg</a>
+			<a href="#" class="btn gearTag">
+				<strong>Pris</strong> 1250SEK</a>
+			<a href="#" class="btn gearTag">
+				<strong>Bredd </strong>ca 35cm</a>
+		</div>
+	</div>
+	<div class="card test" style="width: 18rem;">
+		<img class="card-img-top" src="https://via.placeholder.com/300" alt="Card image cap">
+		<div class="card-body">
+			<h5 class="card-title">3 Tänder</h5>
+			<p class="card-text">Att förbereda 35cm såbädd, lufta och luckra upp jord, skörda potatis, morötter, med mera.
+			</p>
+			<a href="#" class="btn gearTag">
+				<strong>Vikt</strong> 3.1 kg</a>
+			<a href="#" class="btn gearTag">
+				<strong>Pris</strong> 1250SEK</a>
+			<a href="#" class="btn gearTag">
+				<strong>Bredd </strong>ca 35cm</a>
+		</div>
+	</div>
+
+	<div class="card test" style="width: 18rem;">
+		<img class="card-img-top" src="https://via.placeholder.com/300" alt="Card image cap">
+		<div class="card-body">
+			<h5 class="card-title">3 Tänder</h5>
+			<p class="card-text">Att förbereda 35cm såbädd, lufta och luckra upp jord, skörda potatis, morötter, med mera.
+			</p>
+			<a href="#" class="btn gearTag">
+				<strong>Vikt</strong> 3.1 kg</a>
+			<a href="#" class="btn gearTag">
+				<strong>Pris</strong> 1250SEK</a>
+			<a href="#" class="btn gearTag">
+				<strong>Bredd </strong>ca 35cm</a>
+		</div>
+	</div>
+
+	<div class="card test" style="width: 18rem;">
+		<img class="card-img-top" src="https://via.placeholder.com/300" alt="Card image cap">
+		<div class="card-body">
+			<h5 class="card-title">3 Tänder</h5>
+			<p class="card-text">Att förbereda 35cm såbädd, lufta och luckra upp jord, skörda potatis, morötter, med mera.
+			</p>
+			<a href="#" class="btn gearTag">
+				<strong>Vikt</strong> 3.1 kg</a>
+			<a href="#" class="btn gearTag">
+				<strong>Pris</strong> 1250SEK</a>
+			<a href="#" class="btn gearTag">
+				<strong>Bredd </strong>ca 35cm</a>
+		</div>
+	</div>
+
+</div>
 
 <!-- Gears general info part three section -->
 <div class="container welcome">
@@ -146,69 +185,16 @@
 </div>
 
 <!-- contact from for ordering gears -->
-<div class="container welcome">
+<div class="container toolsForm">
 	<div class="row">
 		<div class="col-md-6">
-
 			<h2> Beställa din bredgrep</h2>
-			<div class="container-fluid hero">
-				<div class="row">
-					<div class="col-12">
-						<form>
-							<div class="form-row">
-								<div class="form-group col-md-6">
-									<label for="fullname">Namn</label>
-									<input type="name" class="form-control" id="fullname" placeholder="Namn">
-								</div>
-								<div class="form-group col-md-6">
-
-									<label for="inputEmail4">E-post</label>
-									<input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-								</div>
-
-							</div>
-							<div class="form-group">
-								<label for="inputAddress">Address</label>
-								<input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-							</div>
-
-							<div class="form-row">
-								<div class="form-group col-md-6">
-									<label for="inputCity">City</label>
-									<input type="text" class="form-control" id="inputCity">
-								</div>
-								<div class="form-group col-md-4">
-									<label for="bredgrepType">Choose Bredgrep Type</label>
-									<select id="bredgrepType" class="form-control">
-										<option selected>Bredgrep type one</option>
-										<option>Bredgrep type Two</option>
-										<option>Bredgrep type Three</option>
-									</select>
-								</div>
-								<div class="form-group col-md-2">
-									<label for="inputZip">Zip</label>
-									<input type="text" class="form-control" id="inputZip">
-								</div>
-							</div>
-							<div class="form-group">
-								<div class="form-group">
-									<label for="exampleFormControlTextarea1">Example textarea</label>
-									<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-								</div>
-							</div>
-							<button type="submit" class="btn btn-primary">Beställ</button>
-						</form>
-					</div>
-
-				</div>
-
-			</div>
+			<?php echo do_shortcode('[contact-form-7 id="57" title="Bästella Bredgrep"]'); ?>
 
 		</div>
 	</div>
 
 </div>
-
 <!-- footer -->
 
 <?php get_footer(); 
