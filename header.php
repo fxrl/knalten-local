@@ -18,11 +18,11 @@
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
         <a class="navbar-brand" href="#">
-            <?php bloginfo('name'); ?>
+            <img src="https://via.placeholder.com/100x50" alt="<?php bloginfo('name'); ?>">
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <?php /* Primary navigation */

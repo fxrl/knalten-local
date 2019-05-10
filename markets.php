@@ -12,9 +12,9 @@
 </div>
 
 <!-- welcome section -->
-<div class="container contact">
+<div class="container markets">
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-12 markets__title">
       <h1>Förssäljningställen</h1>
       <h2>This is where you find us</h2>
     </div>
@@ -33,7 +33,7 @@
         <div class="col-md-6 col-lg-3">
             <div class="card">
               <img class="card-img-top" src="https://via.placeholder.com/100" alt="Card image cap">
-              <div class="card-body">
+              <div class="card-body markets__card-body">
                 <h5 class="card-title">		
                     <?php the_title(); ?>
                 </h5>

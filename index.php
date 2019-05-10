@@ -35,7 +35,7 @@
   <div class="container latest-news">
     <div class="row">
         <div class="col-12">
-          <h2>Latest News</h2>
+          <h2>Nyheter</h2>
         </div>
           <!-- the loop -->
           <?php if ( have_posts() ) : while ( have_posts() ) :   the_post(); ?>

@@ -1,0 +1,29 @@
+.contact {
+    h1 {
+        color: $green;
+        font-size: $l;
+    }
+}
+
+.contact__info {
+    margin: $l 0;
+    padding: $m;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid $green;
+
+    h3 {
+        font-family: 'Lato';
+        font-size: 1rem;
+        color: $green;
+        font-weight: 700;
+    }
+
+    ul {
+        padding: 0;
+    }
+
+    li {
+        list-style: none;
+    }
+}
