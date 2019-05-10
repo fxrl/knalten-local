@@ -69,7 +69,8 @@ footer {
   color: #5B8F26; }
 
 .card {
-  margin: 1rem 0; }
+  margin: 1rem 0;
+  max-width: 500px; }
   .card .card-title {
     font-weight: 700;
     text-transform: capitalize; }

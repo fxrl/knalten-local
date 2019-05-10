@@ -33,7 +33,8 @@
 		<div class="row">
 			<div class="col-12">
 				<h2>Monthly Vegetables</h2>
-
+			</div>
+			<div class="col-12">
 				<!-- accordion -->
 				<div class="accordion" id="accordionExample">
 					<!-- the loop -->
@@ -80,12 +81,12 @@
 
 </div>
 <!-- vegetable bags general info part two section -->
-<div class="container welcome">
+<div class="container">
 	<div class="row">
 		<div class="col-md-6">
 			<h2>Skicka en förfråga om grönsakasse
 			</h2>
-			<?php echo do_shortcode('[contact-form-7 id="45" title="soniasform"]'); ?>
+			<?php echo do_shortcode('[contact-form-7 id="58" title="Grönskasse Förfråga"]'); ?>
 
 		</div>
 	</div>
