@@ -12,7 +12,7 @@
 <!-- welcome section -->
 <div class="container welcome">
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-12">
       <h1>Knalten</h1>
 	    <p>I våra 14 tegar odlar vi ett sortiment av ca 40 olika ekologiska grönsaker. Våra hästar är ett stort stöd i förberedelsearbetet,
 		    men vi gör det mesta av arbetet manuellt. För att underlätta detta arbete använder vi ett magiskt redskap: Bredgrepen.

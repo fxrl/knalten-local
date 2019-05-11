@@ -56,3 +56,9 @@
     width: 100%;
   }
 }
+
+@media (min-width: $bp-md) {
+  body {
+    background: $rose;
+  }
+}

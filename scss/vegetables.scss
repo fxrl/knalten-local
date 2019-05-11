@@ -1,11 +1,16 @@
 // intro section
 
 .headache {
-  margin: $l 0;
+  margin: 0 auto;
   text-align: center;
+  margin-bottom: 3rem;
 
   h1 {
     font-size: 5rem;
+    color: $green;
+  }
+
+  h3 {
     color: $rose;
   }
 }
@@ -31,9 +36,9 @@
   }
 }
 
-.card {
+.veggieCard {
   margin: $s 0;
-  max-width: 500px;
+  max-width: 400px;
 
   .card-title {
     font-weight: 700;
@@ -54,10 +59,17 @@
     color: $rose;
     text-decoration: none !important;
   }
-  .veggiebg {
+  ul {
+    margin-bottom: 16px;
+  }
+  li {
     border: 2px solid $green !important;
     background: $light-green;
     margin: 12px;
+    border-radius: 5px;
+    position: relative;
+    display: block;
+    padding: 0.75rem 1.25rem;
   }
 
   img {
