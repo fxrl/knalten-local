@@ -14,7 +14,7 @@
 <!-- vegetables general info section -->
 <div class="container headache">
 	<div class="row">
-		<div class="col-md-6">
+		<div class="col-sm">
 			<h1> GRÖNSAKER</h1>
 			<h3> Från trädgården till tallriken! Vi skördar på morgonen, ni har dem på tallriken på kvällen!</h3>
 			<p>I våra 14 tegar odlar vi ett sortiment av ca 40 olika ekologiska grönsaker. Våra hästar är ett stort stöd i förberedelsearbetet,
@@ -38,18 +38,21 @@
 <section class='monthly-vegetable-wrapper'>
 	<div class="container monthly-vegetable">
 		<div class="row">
-			<div class="col-12">
+			<div class="col-sm-12 ">
 				<h2>Monthly Vegetables</h2>
+			</div>
 
-				<!-- accordion -->
-				<div class="accordion" id="accordionExample">
-					<!-- the loop -->
-					<?php 
+			<!-- the loop -->
+
+			<?php 
             $args = array( 
               'post_type' => 'Monthly-Vegetable'
             );
           $the_query = new WP_Query( $args );
-            if ( $the_query->have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+			if ( $the_query->have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+			<!-- accordion -->
+			<div class="col-sm-12 col-md-6">
+				<div class="accordion" id="accordionExample">
 					<div class="card veggieCard">
 						<div class="veggieCardHeader" id="heading<?php the_id(); ?>">
 							<button class="btn btn-link veggieButton" type="button" data-toggle="collapse" data-target="#collapse<?php the_id(); ?>"
@@ -65,19 +68,21 @@
 
 						</div>
 					</div>
-					<?php endwhile; else: ?>
-					<p>There no posts to show</p>
-					<?php endif; ?>
 				</div>
+
 			</div>
+			<?php endwhile; else: ?>
+			<p>There no posts to show</p>
+			<?php endif; ?>
+
+
 		</div>
-	</div>
 </section>
 
 <!-- vegetables general info part two section -->
-<div class="container welcome">
+<div class="container headache">
 	<div class="row">
-		<div class="col-md-6">
+		<div class="col-md">
 
 			<h3> Vårt motto är närodlat, nyskördat och smakrikt!</h3>
 			<p>Grönsaksodlingarna är både ekologiska- och KRAV-certifierade (HS Certifiering AB, SE-EKO-04) och omfattar ca en halv hektar
