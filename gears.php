@@ -11,13 +11,13 @@
 </div>
 
 <!-- gears general info section -->
-<div class="container welcome">
+<div class="container introProducts">
 	<div class="row">
 		<div class="col-md-6">
 			<h1> Våra Redskap</h1>
 			<h2> BREDGREP</h2>
-			<h3> Att ta vara på de traditionella metoderna
-			</h3>
+			<h4 class="bredgrep"> Att ta vara på de traditionella metoderna
+			</h4>
 			<div class="container-fluid hero">
 				<div class="row">
 					<div class="col-12">
@@ -34,7 +34,7 @@
 
 
 <!-- Gears general info part two section -->
-<div class="container welcome">
+<div class="container introProducts">
 	<div class="row">
 		<div class="col-md-6">
 
