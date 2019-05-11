@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Amatic+SC:700|Lato:400,700,900");
 .hero img {
   width: 100%; }
-
 .hero .col-12 {
   padding: 0; }
 
@@ -191,6 +190,14 @@ footer {
   .contact__info li {
     list-style: none; }
 
+.news_content {
+  margin-top: 2rem;
+  margin-bottom: 3rem; }
+  .news_content h1 {
+    font-size: 3rem;
+    color: #5B8F26;
+    margin-bottom: 1rem; }
+
 h1,
 h2 {
   font-family: "Amatic SC";
@@ -209,3 +216,5 @@ p {
   .btn-primary:hover {
     border: none;
     background: #5B8F26; }
+
+/*# sourceMappingURL=style.css.map */

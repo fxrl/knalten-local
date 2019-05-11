@@ -26,18 +26,19 @@
 
 <!-- Post content -->
 <div class='container news_content'>
-    <!-- date of the post -->
-    <div class="col-12">
-        <span class="badge badge-success">
-            <?php the_date(); ?>
-        </span>
-    </div>
     <div class='row'>
         <div class='col-12'>
             <?php
                 the_title('<h1>','</h1>');
                 the_content();
             ?>
+            <span class="badge badge-success">
+                <?php the_date(); ?>
+            </span>
+            <span class="badge badge-success">
+                Author:
+                <?php  the_author(); ?>
+            </span>
         </div>
     </div>
 </div>
