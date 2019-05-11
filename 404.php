@@ -9,7 +9,7 @@ get_header();?>
             <img src='http://localhost:1234/knalten/wp-content/uploads/2019/05/grelinette-livraison-site.png'>
             <h1 class='oj'>Oj! 404</h1>
             <h2>Inte så fort, jag tror att du är vilse!</h2>
-            <button class='btn btn-primary'>Gå Till Hemsidan</button>
+            <a href=''><button class='btn btn-primary'>Gå Till Hemsidan</button></a>
         </div>
     </div>
 </div>
