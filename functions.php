@@ -2,13 +2,6 @@
 
 require_once('class-wp-bootstrap-navwalker.php');
 
-
-// add theme supports
-function mytheme_post_thumbnails() {
-  add_theme_support( 'post-thumbnails' );
-}
-add_action( 'after_setup_theme', 'mytheme_post_thumbnails' );
-
 // enqeue functions
 
 function themebs_enqueue_styles() {
