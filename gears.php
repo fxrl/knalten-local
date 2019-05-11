@@ -25,7 +25,7 @@
 					</div>
 				</div>
 			</div>
-			<button class='btn btn-primary'>Beställa</button>
+			<button class='btn btn-primary orderButton'>Beställa</button>
 
 		</div>
 	</div>
@@ -57,7 +57,7 @@
 
 <!-- gear carts  section -->
 
-<div class="container">
+<div class="container gearCartContainer">
 	<div class="row gearCarts">
 		<div class="col-12">
 			<h2>Vi erbjuder 4 olika storlekar</h2>
@@ -66,7 +66,7 @@
 
 </div>
 <div class="scrolling-wrapper-flexbox">
-	<div class="card test" style="width: 18rem;">
+	<div class="card gearCart" style="width: 18rem;">
 		<img class="card-img-top" src="https://via.placeholder.com/300" alt="Card image cap">
 		<div class="card-body">
 			<h5 class="card-title">3 Tänder</h5>
@@ -80,22 +80,7 @@
 				<strong>Bredd </strong>ca 35cm</a>
 		</div>
 	</div>
-	<div class="card test" style="width: 18rem;">
-		<img class="card-img-top" src="https://via.placeholder.com/300" alt="Card image cap">
-		<div class="card-body">
-			<h5 class="card-title">3 Tänder</h5>
-			<p class="card-text">Att förbereda 35cm såbädd, lufta och luckra upp jord, skörda potatis, morötter, med mera.
-			</p>
-			<a href="#" class="btn gearTag">
-				<strong>Vikt</strong> 3.1 kg</a>
-			<a href="#" class="btn gearTag">
-				<strong>Pris</strong> 1250SEK</a>
-			<a href="#" class="btn gearTag">
-				<strong>Bredd </strong>ca 35cm</a>
-		</div>
-	</div>
-
-	<div class="card test" style="width: 18rem;">
+	<div class="card gearCart" style="width: 18rem;">
 		<img class="card-img-top" src="https://via.placeholder.com/300" alt="Card image cap">
 		<div class="card-body">
 			<h5 class="card-title">3 Tänder</h5>
@@ -110,7 +95,22 @@
 		</div>
 	</div>
 
-	<div class="card test" style="width: 18rem;">
+	<div class="card gearCart" style="width: 18rem;">
+		<img class="card-img-top" src="https://via.placeholder.com/300" alt="Card image cap">
+		<div class="card-body">
+			<h5 class="card-title">3 Tänder</h5>
+			<p class="card-text">Att förbereda 35cm såbädd, lufta och luckra upp jord, skörda potatis, morötter, med mera.
+			</p>
+			<a href="#" class="btn gearTag">
+				<strong>Vikt</strong> 3.1 kg</a>
+			<a href="#" class="btn gearTag">
+				<strong>Pris</strong> 1250SEK</a>
+			<a href="#" class="btn gearTag">
+				<strong>Bredd </strong>ca 35cm</a>
+		</div>
+	</div>
+
+	<div class="card gearCart" style="width: 18rem;">
 		<img class="card-img-top" src="https://via.placeholder.com/300" alt="Card image cap">
 		<div class="card-body">
 			<h5 class="card-title">3 Tänder</h5>

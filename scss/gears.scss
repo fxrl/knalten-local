@@ -3,17 +3,18 @@
 .introProducts {
   .bredgrep {
     color: $green;
+    font-weight: 300;
+  }
+  .orderButton {
+    margin-top: $m;
   }
 }
-.card {
-  border: 2px solid $green;
-  h5 {
+.gearCartContainer {
+  h2 {
     color: $green;
   }
-  .gearTag {
-    background-color: $rose;
-    color: white;
-    margin: 2px;
+  h5 {
+    color: $green;
   }
 }
 
@@ -22,9 +23,15 @@
   flex-wrap: nowrap;
   overflow-x: auto;
 
-  .test {
+  .gearCart {
+    border: 2px solid $green;
     flex: 0 0 auto;
     margin: 12px;
+    .gearTag {
+      background-color: $rose;
+      color: white;
+      margin: 2px;
+    }
   }
 
   &::-webkit-scrollbar {
