@@ -8,6 +8,26 @@
         margin-bottom:$s;
     }
 }
+
+.post__heading {
+    margin-top: 5rem;
+
+    h1 {
+        text-align: left;
+        color: $green;
+        font-size: 5rem;
+    }
+}
+
+.post__meta {
+    margin-bottom: $s;
+
+    .badge-success {
+        background: $rose;
+    }
+
+}
+
 @media only screen and (min-width: 992px) {
     .news_content {
         width:80%;
