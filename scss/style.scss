@@ -31,10 +31,3 @@ p {
     background: $green;
   }
 }
-
-
-@include media-breakpoint-up(lg) {
-  .container {
-    color: white;
-  }
-}
