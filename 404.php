@@ -1,4 +1,4 @@
-//404
+
 
 <?php 
 /* Template Name:  404  */ 
