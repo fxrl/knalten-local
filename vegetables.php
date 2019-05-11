@@ -23,7 +23,6 @@
 					men vi gör det mesta av arbetet manuellt. För att underlätta detta arbete använder vi ett magiskt redskap: Bredgrepen.
 				</p>
 				<button class='btn btn-primary'>Försäljningställen</button>
-
 			</div>
 		</div>
 		<div class="desktopText">
@@ -37,8 +36,6 @@
 					<p>Grönsaksodlingarna är både ekologiska- och KRAV-certifierade (HS Certifiering AB, SE-EKO-04) och omfattar ca en halv
 						hektar mark.
 					</p>
-
-
 				</div>
 				<div class="col-md-6">
 					<p>Under säsongen har du möjlighet att njuta av våra nyskördade, näringsrika och mycket smakfulla grönsaker varje vecka.
@@ -55,11 +52,7 @@
 						</div>
 					</div>
 				</div>
-
-
 			</div>
-
-
 		</div>
 	</div>
 </div>
@@ -71,7 +64,7 @@
 		<img src='https://via.placeholder.com/50' alt='cert'>
 	</div>
 </div>
-</div>
+
 
 <!-- monthly vegetable section -->
 
@@ -101,8 +94,8 @@
 							</button>
 						</div>
 
-						<div id="collapse<?php the_id(); ?>" class="collapse show" aria-labelledby=""
-						 heading<?php the_id(); ?>" data-parent="#accordionExample">
+						<div id="collapse<?php the_id(); ?>" class="collapse show" aria-labelledby=" heading">
+							<?php the_id(); ?>" data-parent="#accordionExample">
 
 							<?php the_content(); ?>
 
@@ -117,6 +110,7 @@
 
 
 		</div>
+	</div>
 </section>
 
 <!-- vegetables general info part two section -->
@@ -138,6 +132,7 @@
 	</div>
 
 </div>
+
 
 <!-- footer -->
 
