@@ -41,12 +41,15 @@
           <?php if ( have_posts() ) : while ( have_posts() ) :   the_post(); ?>
           <div class="col-md-4">
             <div class="card">
-              <img class="card-img-top" src="https://via.placeholder.com/100" alt="Card image cap">
+              <?php 
+                $thumb = $dynamic_featured_image->get_featured_images([get_the_id()]);
+              ?>
+              <img class="card-img-top" src=<?php echo $thumb[0]['full']; ?> alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">		
                     <?php the_title(); ?>
                 </h5>
-                <p class="card-text">	<?php the_content(); ?></p>
+                <p class="card-text">	<?php the_excerpt(); ?></p>
                 <a href="<?php the_permalink() ?>">Read More</a>
                 <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
               </div>

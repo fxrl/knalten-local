@@ -1,0 +1,18 @@
+
+.news_content{
+    margin-top: $m;
+    margin-bottom: $l;
+    h1{
+        font-size: 3rem;
+        color:$green; 
+        margin-bottom:$s;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .news_content {
+        width:80%;
+    }
+}
+
+
+
