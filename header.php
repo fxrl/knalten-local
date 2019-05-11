@@ -14,7 +14,7 @@
 
     <meta name="viewport" content="width=device-width">
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>

@@ -35,3 +35,15 @@ p {
     background: $green;
   }
 }
+
+
+@media (min-width: $bp-lg) {
+  .container {
+    max-width: 940px;
+  }
+}
+@media (max-width: $bp-md) {
+  .container {
+    max-width: 640px;
+  }
+}
