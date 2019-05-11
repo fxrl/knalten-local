@@ -1,0 +1,25 @@
+form {
+  padding: $m;
+  p {
+    label {
+      text-align: left;
+      span {
+        input {
+          border: 1px solid $green;
+          border-radius: 5px !important;
+          padding: 8px !important;
+        }
+        select {
+          background-color: $light-green;
+          width: 346px;
+          height: 42px;
+        }
+        textarea {
+          border: 1px solid $green;
+          border-radius: 5px !important;
+          height: 200px;
+        }
+      }
+    }
+  }
+}

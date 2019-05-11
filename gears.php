@@ -11,10 +11,13 @@
 </div>
 
 <!-- gears general info section -->
-<div class="container introProducts">
+<div class="container introProducts gearintro">
 	<div class="row">
-		<div class="col-md-6">
+		<div class="col">
 			<h1> Våra Redskap</h1>
+		</div>
+		<div class="col-md-6 mobileText">
+
 			<h2> BREDGREP</h2>
 			<h4 class="bredgrep"> Att ta vara på de traditionella metoderna
 			</h4>
@@ -30,30 +33,60 @@
 		</div>
 	</div>
 
-</div>
+	<div class="container desktopText">
+		<div class="row bredgrep">
+			<div class="col">
+				<h2> BREDGREP</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<h4 class="bredgrep"> Att ta vara på de traditionella metoderna
+				</h4>
 
+				<p>På Knalten användar vi ett gammalt Franskt redskap som heter Grelinette eller Bredgrep på Svenska. När vi kom från Frankrike
+					tog vi med oss en grelinette när vi packade väskan till Sverige. Fördelen med en bredgrep är att man inte behöver vända
+					jorden när man förbereder såbädden. Det gör det möjligt att lufta och luckra upp jorden utan att förstöra ekosystemet.
+					Här på Knalten använder vi verktyget varje dag under säsong!
+				</p>
+			</div>
+			<div class="col-md-6">
+				<p>Med en bredgrep kan man arbeta marken utan att böja ryggen och benen. Det är jättebra! Utöver att lufta och luckra upp
+					jorden kan man göra många andra moment med detta redskap för att spara leder, muskler och senor. Vi använder bredgrepen
+					inte bara till att rensa ogräs och skörda potatis och morötter utan också till att ventilera jorden och skapa en bättre
+					vattenströmning.
+				</p>
+				<button class='btn btn-primary orderButton'>Beställa</button>
 
-<!-- Gears general info part two section -->
-<div class="container introProducts">
-	<div class="row">
-		<div class="col-md-6">
+			</div>
 
-
-			<p>På Knalten användar vi ett gammalt Franskt redskap som heter Grelinette eller Bredgrep på Svenska. När vi kom från Frankrike
-				tog vi med oss en grelinette när vi packade väskan till Sverige. Fördelen med en bredgrep är att man inte behöver vända
-				jorden när man förbereder såbädden. Det gör det möjligt att lufta och luckra upp jorden utan att förstöra ekosystemet.
-				Här på Knalten använder vi verktyget varje dag under säsong!
-			</p>
-			<p>Med en bredgrep kan man arbeta marken utan att böja ryggen och benen. Det är jättebra! Utöver att lufta och luckra upp
-				jorden kan man göra många andra moment med detta redskap för att spara leder, muskler och senor. Vi använder bredgrepen
-				inte bara till att rensa ogräs och skörda potatis och morötter utan också till att ventilera jorden och skapa en bättre
-				vattenströmning.
-			</p>
 
 		</div>
 	</div>
 
+	<!-- Gears general info part two section -->
+	<div class="container mobileText ">
+		<div class="row ">
+			<div class="col-md-6">
+				<p>På Knalten användar vi ett gammalt Franskt redskap som heter Grelinette eller Bredgrep på Svenska. När vi kom från Frankrike
+					tog vi med oss en grelinette när vi packade väskan till Sverige. Fördelen med en bredgrep är att man inte behöver vända
+					jorden när man förbereder såbädden. Det gör det möjligt att lufta och luckra upp jorden utan att förstöra ekosystemet.
+					Här på Knalten använder vi verktyget varje dag under säsong!
+				</p>
+				<p>Med en bredgrep kan man arbeta marken utan att böja ryggen och benen. Det är jättebra! Utöver att lufta och luckra upp
+					jorden kan man göra många andra moment med detta redskap för att spara leder, muskler och senor. Vi använder bredgrepen
+					inte bara till att rensa ogräs och skörda potatis och morötter utan också till att ventilera jorden och skapa en bättre
+					vattenströmning.
+				</p>
+
+			</div>
+		</div>
+
+	</div>
+
 </div>
+
+
 
 <!-- gear carts  section -->
 
@@ -127,74 +160,48 @@
 
 </div>
 
-<!-- Gears general info part three section -->
-<div class="container welcome">
-	<div class="row">
-		<div class="col-md-6">
-			<p>Bredgrep finns att köpa i Knaltens gårdsbutik eller på webbplatsen (se nedan). Du kan antingen hämta din bredgrep direkt
-				från Knalten, eller om du föredrar få den skickad med DHL.</p>
-			<h4>Frakten kostar 200 kronor i Sverige.</h4>
-		</div>
-	</div>
-
-</div>
 
 <!--Gears list of marketing quotes -->
-<div class="container welcome">
+<div class="container gearsEndingSection ">
 	<div class="row">
-		<div class="col-md-6">
-			<ul class="list-group">
-				<li class="list-group-item">Vår Bredgrep är tillverkat i Lyon, Frankrike av Fourches à Bêcher Ducoterre</li>
+		<div class="col-sm-12 textListBox">
+			<h2>This is heading</h2>
+			<p>Bredgrep finns att köpa i Knaltens gårdsbutik eller på webbplatsen (se nedan). </p>
+			<p>Du kan antingen hämta din bredgrep direkt från Knalten, eller om du föredrar få den skickad med DHL.</p>
+			<h6>Frakten kostar 200 kronor i Sverige.</h6>
+		</div>
+		<div class="col-sm-12 textListBox">
+			<ul class="list-group ">
+				<li class="list-group-item bgEven">Vår Bredgrep är tillverkat i Lyon, Frankrike av Fourches à Bêcher Ducoterre</li>
 				<li class="list-group-item">Varje verktyg kommer med 5 års garanti.</li>
-				<li class="list-group-item">Priserna varierar från 1250 kronor utan frakt till 1990 kronor.
+				<li class="list-group-item bgEven">Priserna varierar från 1250 kronor utan frakt till 1990 kronor.
 				</li>
 				<li class="list-group-item">Arbetsdjupet är 25 cm</li>
-				<li class="list-group-item">Handtagen mäter ca 110 cm och är tillverkad av hårda träslag som ask.
+				<li class="list-group-item bgEven">Handtagen mäter ca 110 cm och är tillverkad av hårda träslag som ask.
 				</li>
-				<li class="list-group-item">Avståndet mellan tänderna är cirka 11 cm
+				<li class="list-group-item ">Avståndet mellan tänderna är cirka 11 cm
 				</li>
-				<li class="list-group-item">Rätt använd så utvecklar en bredgrep cirka 130 kg kraft i slutet av tänderna.
+				<li class="list-group-item bgEven">Rätt använd så utvecklar en bredgrep cirka 130 kg kraft i slutet av tänderna.
 				</li>
-
-
 			</ul>
 		</div>
-	</div>
-
-</div>
-
-<!-- gears press info section -->
-<div class="container welcome">
-	<div class="row">
-		<div class="col-md-6">
-
-			<h2> Press</h2>
-			<div class="container-fluid hero">
-				<div class="row">
-					<div class="col-12">
-						<img src='https://via.placeholder.com/300' alt='cert'>
-					</div>
-
-				</div>
-
-			</div>
-
-		</div>
-	</div>
-
-</div>
-
-<!-- contact from for ordering gears -->
-<div class="container toolsForm">
-	<div class="row">
-		<div class="col-md-6">
+		<div class="col-sm-12 toolsForm">
 			<h2> Beställa din bredgrep</h2>
 			<?php echo do_shortcode('[contact-form-7 id="57" title="Bästella Bredgrep"]'); ?>
 
 		</div>
+
 	</div>
 
 </div>
+
+
+<!-- contact from for ordering gears -->
+<!-- <div class="container toolsForm">
+	<div class="row">
+	</div>
+
+</div> -->
 <!-- footer -->
 
 <?php get_footer(); 

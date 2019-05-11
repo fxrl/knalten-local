@@ -1,6 +1,33 @@
 //gear cards
 
-.introProducts {
+.gearintro {
+  .desktopText {
+    display: none;
+  }
+  .mobileText {
+    display: block;
+    margin-top: $m;
+  }
+  @media screen and (min-width: $bp-md) {
+    .mobileText {
+      display: none;
+    }
+    .desktopText {
+      display: block;
+
+      h2 {
+        text-align: left;
+        font-size: $m !important;
+      }
+      h4 {
+        font-size: $s !important;
+        font-weight: 200;
+      }
+      .orderButton {
+        margin-top: 0;
+      }
+    }
+  }
   .bredgrep {
     color: $green;
     font-weight: 300;
@@ -37,9 +64,70 @@
   &::-webkit-scrollbar {
     display: none;
   }
+  @media screen and (min-width: $bp-md) {
+    display: block;
+    width: 642px;
+    margin: 0 auto;
+    .gearCart {
+      border: 2px solid #5b8f26;
+      margin: 15px;
+      display: inline-block;
+    }
+  }
 }
+.gearsEndingSection {
+  margin: $l auto;
+  h2 {
+    color: $green !important;
+    font-family: "amatic sc";
+  }
+  .bgEven {
+    background-color: $light-green;
+  }
 
+  li {
+    border: 1px solid $green;
+  }
+  .textListBox {
+    margin: $m auto;
+    max-width: 642px;
+  }
+}
 .toolsForm {
+  text-align: center;
+  input[type="submit"] {
+    width: 346;
+    margin: 16px;
+  }
+  @media screen and (min-width: $bp-md) {
+    text-align: left;
+    form {
+      max-width: 550px;
+      display: block;
+      margin: 0 auto;
+
+      p,
+      label {
+        width: 200px !important;
+        margin: $xs $s;
+        display: inline-block;
+        input[type="text"],
+        input[name="your-email"] {
+          display: inline !important;
+          width: 200px;
+        }
+        select {
+          background-color: $light-green;
+          width: 200px;
+          height: 42px;
+        }
+        input[type="submit"] {
+          width: 200px;
+          margin: 16px;
+        }
+      }
+    }
+  }
   h2 {
     color: $green;
   }
