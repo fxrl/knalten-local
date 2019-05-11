@@ -12,25 +12,65 @@
 </div>
 
 <!-- vegetables general info section -->
-<div class="container headache">
+<div class="container introProducts">
 	<div class="row">
 		<div class="col-sm">
 			<h1> GRÖNSAKER</h1>
-			<h3> Från trädgården till tallriken! Vi skördar på morgonen, ni har dem på tallriken på kvällen!</h3>
-			<p>I våra 14 tegar odlar vi ett sortiment av ca 40 olika ekologiska grönsaker. Våra hästar är ett stort stöd i förberedelsearbetet,
-				men vi gör det mesta av arbetet manuellt. För att underlätta detta arbete använder vi ett magiskt redskap: Bredgrepen.
-				<p>
+			<h2> Från trädgården till tallriken!</h2>
+			<h2> Vi skördar på morgonen, ni har dem på tallriken på kvällen!</h2>
+			<div class="mobileText">
+				<p>I våra 14 tegar odlar vi ett sortiment av ca 40 olika ekologiska grönsaker. Våra hästar är ett stort stöd i förberedelsearbetet,
+					men vi gör det mesta av arbetet manuellt. För att underlätta detta arbete använder vi ett magiskt redskap: Bredgrepen.
+				</p>
+				<button class='btn btn-primary'>Försäljningställen</button>
+
+			</div>
+		</div>
+		<div class="desktopText">
+			<div class="row">
+				<div class="col-md-6">
+					<p>I våra 14 tegar odlar vi ett sortiment av ca 40 olika ekologiska grönsaker. Våra hästar är ett stort stöd i förberedelsearbetet,
+						men vi gör det mesta av arbetet manuellt. För att underlätta detta arbete använder vi ett magiskt redskap: Bredgrepen.
+					</p>
 					<button class='btn btn-primary'>Försäljningställen</button>
+					<h3> Vårt motto är närodlat, nyskördat och smakrikt!</h3>
+					<p>Grönsaksodlingarna är både ekologiska- och KRAV-certifierade (HS Certifiering AB, SE-EKO-04) och omfattar ca en halv
+						hektar mark.
+					</p>
+
+
+				</div>
+				<div class="col-md-6">
+					<p>Under säsongen har du möjlighet att njuta av våra nyskördade, näringsrika och mycket smakfulla grönsaker varje vecka.
+					</p>
+					<p>Precis som i Frankrike där grönsakshandlaren alltid gav Sonias mormor det bästa han hade för dagen, kan ni alltid lita
+						på att vi på Knalten ger er det bästa vi har för dagen och säsong.
+					</p>
+					<div class="row deskCertificate ">
+						<div class="col-xs-6">
+							<img src='https://via.placeholder.com/50' alt='cert'>
+						</div>
+						<div class="col-xs-6">
+							<img src='https://via.placeholder.com/50' alt='cert'>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+
+
 		</div>
 	</div>
-	<div class="row welcome__certificates">
-		<div class="col-xs-6">
-			<img src='https://via.placeholder.com/50' alt='cert'>
-		</div>
-		<div class="col-xs-6">
-			<img src='https://via.placeholder.com/50' alt='cert'>
-		</div>
+</div>
+<div class="row welcome__certificates mobileCertificate">
+	<div class="col-xs-6">
+		<img src='https://via.placeholder.com/50' alt='cert'>
 	</div>
+	<div class="col-xs-6">
+		<img src='https://via.placeholder.com/50' alt='cert'>
+	</div>
+</div>
 </div>
 
 <!-- monthly vegetable section -->
@@ -80,20 +120,20 @@
 </section>
 
 <!-- vegetables general info part two section -->
-<div class="container headache">
+<div class="container introProducts">
 	<div class="row">
 		<div class="col-md">
-
-			<h3> Vårt motto är närodlat, nyskördat och smakrikt!</h3>
-			<p>Grönsaksodlingarna är både ekologiska- och KRAV-certifierade (HS Certifiering AB, SE-EKO-04) och omfattar ca en halv hektar
-				mark.
-			</p>
-			<p>Under säsongen har du möjlighet att njuta av våra nyskördade, näringsrika och mycket smakfulla grönsaker varje vecka.
-			</p>
-			<p>Precis som i Frankrike där grönsakshandlaren alltid gav Sonias mormor det bästa han hade för dagen, kan ni alltid lita
-				på att vi på Knalten ger er det bästa vi har för dagen och säsong.
-			</p>
-
+			<div class="mobileText">
+				<h3> Vårt motto är närodlat, nyskördat och smakrikt!</h3>
+				<p>Grönsaksodlingarna är både ekologiska- och KRAV-certifierade (HS Certifiering AB, SE-EKO-04) och omfattar ca en halv
+					hektar mark.
+				</p>
+				<p>Under säsongen har du möjlighet att njuta av våra nyskördade, näringsrika och mycket smakfulla grönsaker varje vecka.
+				</p>
+				<p>Precis som i Frankrike där grönsakshandlaren alltid gav Sonias mormor det bästa han hade för dagen, kan ni alltid lita
+					på att vi på Knalten ger er det bästa vi har för dagen och säsong.
+				</p>
+			</div>
 		</div>
 	</div>
 

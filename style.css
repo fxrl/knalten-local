@@ -35,9 +35,13 @@
   .card img {
     width: 100%; }
 
-@media (min-width: 768px) {
-  body {
-    background: #F89F8B; } }
+@media (min-width: 992px) {
+  .container {
+    max-width: 940px; } }
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 640px; } }
 
 footer {
   background: #CFDBC6; }
@@ -51,14 +55,34 @@ footer {
   flex-direction: column;
   align-items: center; }
 
-.headache {
-  margin: 0 auto;
+.introProducts {
+  margin: 3rem auto;
   text-align: center;
   margin-bottom: 3rem; }
-  .headache h1 {
+  .introProducts h2 {
+    font-size: 2rem !important; }
+  .introProducts .desktopText {
+    display: none; }
+  .introProducts .mobileText {
+    display: block; }
+  @media screen and (min-width: 768px) {
+    .introProducts .mobileText {
+      display: none; }
+    .introProducts h2 {
+      font-size: 3rem !important; }
+    .introProducts .desktopText {
+      padding-top: 2rem;
+      display: block;
+      text-align: left; }
+      .introProducts .desktopText h3 {
+        color: #5B8F26;
+        padding-top: 2rem; }
+      .introProducts .desktopText .deskCertificate img {
+        padding: 1rem; } }
+  .introProducts h1 {
     font-size: 5rem;
     color: #5B8F26; }
-  .headache h3 {
+  .introProducts h2 {
     color: #F89F8B; }
 
 .headache__certificates {
@@ -67,8 +91,11 @@ footer {
   .headache__certificates img {
     padding: 0.5rem; }
 
+@media screen and (min-width: 768px) {
+  .mobileCertificate {
+    display: none; } }
+
 .monthly-vegetable-wrapper {
-  width: 100vw;
   padding: 3rem 0; }
 
 .monthly-vegetable h2 {
@@ -105,6 +132,16 @@ footer {
     padding: 0.75rem 1.25rem; }
   .veggieCard img {
     width: 100%; }
+
+/*Veggie bags form Styling*/
+.bagOrder .bagOrderForm label {
+  text-align: left !important; }
+
+.bagOrder .bagOrderForm .sendButton {
+  background-color: #5B8F26;
+  color: white;
+  width: 300px;
+  margin-left: -21px !important; }
 
 .card {
   border: 2px solid #5B8F26; }
