@@ -34,3 +34,13 @@
         }
     }
 }
+
+@media only screen and (min-width: $bp-lg){
+    .error{
+        img{
+            width: 50%;
+            margin-left: 25%;
+            margin-right: 25%;
+        }
+    }
+}
