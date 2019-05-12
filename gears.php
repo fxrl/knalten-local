@@ -14,7 +14,7 @@
 <div class="container introProducts gearintro">
 	<div class="row">
 		<div class="col">
-			<h1> Våra Redskap</h1>
+			<h1> Bredgrep</h1>
 		</div>
 		<div class="col-md-6 mobileText">
 
@@ -59,6 +59,18 @@
 				<button class='btn btn-primary orderButton'>Beställa</button>
 
 			</div>
+			<div class="row videoWrapper">
+				<div class="col-md-6 ">
+
+					<iframe width="100%" height="300px" src="https://www.youtube.com/embed/_ajrr9DLaxc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+					 allowfullscreen></iframe>
+				</div>
+				<div class="col-md-6 videoText">
+					<p>Bredgrep finns att köpa i Knaltens gårdsbutik eller på webbplatsen (se nedan). </p>
+					<p>Du kan antingen hämta din bredgrep direkt från Knalten, eller om du föredrar få den skickad med DHL.</p>
+					<h6>Frakten kostar 200 kronor i Sverige.</h6>
+				</div>
+			</div>
 
 
 		</div>
@@ -81,6 +93,20 @@
 
 			</div>
 		</div>
+		<div class="row videoWrapper">
+			<div class="col-md-6 ">
+
+				<iframe width="100%" height="300px" src="https://www.youtube.com/embed/_ajrr9DLaxc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+				 allowfullscreen></iframe>
+			</div>
+			<div class="col-md-6 videoText">
+				<p>Bredgrep finns att köpa i Knaltens gårdsbutik eller på webbplatsen (se nedan). </p>
+				<p>Du kan antingen hämta din bredgrep direkt från Knalten, eller om du föredrar få den skickad med DHL.</p>
+				<h6>Frakten kostar 200 kronor i Sverige.</h6>
+			</div>
+		</div>
+
+
 
 	</div>
 
@@ -164,12 +190,6 @@
 <!--Gears list of marketing quotes -->
 <div class="container gearsEndingSection ">
 	<div class="row">
-		<div class="col-sm-12 textListBox">
-			<h2>This is heading</h2>
-			<p>Bredgrep finns att köpa i Knaltens gårdsbutik eller på webbplatsen (se nedan). </p>
-			<p>Du kan antingen hämta din bredgrep direkt från Knalten, eller om du föredrar få den skickad med DHL.</p>
-			<h6>Frakten kostar 200 kronor i Sverige.</h6>
-		</div>
 		<div class="col-sm-12 textListBox">
 			<ul class="list-group ">
 				<li class="list-group-item bgEven">Vår Bredgrep är tillverkat i Lyon, Frankrike av Fourches à Bêcher Ducoterre</li>
