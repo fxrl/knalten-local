@@ -94,8 +94,8 @@
 							</button>
 						</div>
 
-						<div id="collapse<?php the_id(); ?>" class="collapse show" aria-labelledby=" heading">
-							<?php the_id(); ?>" data-parent="#accordionExample">
+						<div id="collapse<?php the_id(); ?>" class="collapse show" aria-labelledby=" heading"
+						 <?php the_id(); ?>" data-parent="#accordionExample">
 
 							<?php the_content(); ?>
 

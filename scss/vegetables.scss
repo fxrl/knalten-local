@@ -1,7 +1,7 @@
 // intro section
 
 .introProducts {
-  margin: $l auto;
+  margin: $s auto;
   text-align: center;
   margin-bottom: 3rem;
 
@@ -17,6 +17,7 @@
   }
 
   @media screen and (min-width: $bp-md) {
+    margin: $l auto;
     .mobileText {
       display: none;
     }
@@ -66,17 +67,24 @@
 
 .monthly-vegetable-wrapper {
   padding: $l 0;
+
+  @media screen and (min-width: $bp-md) {
+    padding: $m 0;
+  }
 }
 
 .monthly-vegetable {
   h2 {
     font-size: $l;
     color: $green;
+    @media screen and (min-width: $bp-md) {
+      padding-bottom: $m;
+    }
   }
 }
 
 .veggieCard {
-  margin: $s 0;
+  margin: $m auto;
   max-width: 400px;
 
   .card-title {
@@ -119,11 +127,24 @@
 /*Veggie bags form Styling*/
 
 .bagOrder {
-  .bagOrderForm {
-    .sendButton {
-      background-color: $green;
-      color: white;
-      width: 300px;
+  .text {
+    @media screen and (min-width: $bp-md) {
+      padding: $m 0;
+      p {
+        text-align: center;
+      }
+    }
+    h2 {
+      font-size: $l;
+      color: $green !important;
+    }
+
+    form {
+      p {
+        input[type="submit"] {
+          width: 200px !important;
+        }
+      }
     }
   }
 }

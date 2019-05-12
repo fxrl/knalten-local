@@ -30,13 +30,15 @@ p {
   text-transform: uppercase;
   font-weight: 700;
   width: 300px;
+  @media screen and (min-width: $bp-md) {
+    width: 200px;
+  }
 
   &:hover {
     border: none;
     background: $green;
   }
 }
-
 
 @media (min-width: $bp-lg) {
   .container {
