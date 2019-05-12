@@ -2,12 +2,8 @@
 <?php get_header() ?>
 
 <!-- hero-section -->
-<div class="container-fluid hero">
-	<div class="row">
-		<div class="col-12">
-			<img src='https://via.placeholder.com/1000x700'>
-		</div>
-	</div>
+<div class='container-fluid hero' style='background-image:url("<?php bloginfo('url');?>/wp-content/uploads/2019/05/DSC00441.jpeg"); background-size: cover; background-position:center;'>
+
 </div>
 
 <!-- gears general info section -->
@@ -126,7 +122,7 @@
 </div>
 <div class="scrolling-wrapper-flexbox">
 	<div class="card gearCart" style="width: 18rem;">
-		<img class="card-img-top" src="https://via.placeholder.com/300" alt="Card image cap">
+		<img class="card-img-top" src="<?php bloginfo('url');?>/wp-content/uploads/2019/05/16641971_1114838215311127_1968561954763046912_n.jpeg")" alt="Card image cap">
 		<div class="card-body">
 			<h5 class="card-title">3 Tänder</h5>
 			<p class="card-text">Att förbereda 35cm såbädd, lufta och luckra upp jord, skörda potatis, morötter, med mera.

@@ -1,17 +1,10 @@
-//about.php
-
-
 <?php 
 /* Template Name:  About  */ 
 get_header();?>
 
 <!-- hero-section -->
-<div class="container-fluid hero">
-    <div class="row">
-      <div class="col-12">
-        <img src='https://via.placeholder.com/1000x700'>
-      </div>
-    </div>
+<div class='container-fluid hero' style='background-image:url("<?php bloginfo('url');?>/wp-content/uploads/2019/05/aboutus.jpg"); background-size: cover; background-position:top;'>
+
 </div>
 
 <!--  vad gor vi pa knalten -->

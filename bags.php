@@ -2,12 +2,8 @@
 <?php get_header() ?>
 
 <!-- hero-section -->
-<div class="container-fluid hero">
-	<div class="row">
-		<div class="col-12">
-			<img src='https://via.placeholder.com/1000x700'>
-		</div>
-	</div>
+<div class='container-fluid hero' style='background-image:url("<?php bloginfo('url');?>/wp-content/uploads/2019/05/unnamed-file.jpeg"); background-size: cover; background-position:top;'>
+
 </div>
 
 <!-- vegetables general info section -->
@@ -69,7 +65,7 @@
 							</button>
 						</div>
 
-						<div id="collapse<?php the_id(); ?>" class="collapse show" aria-labelledby=" heading"
+						<div id="collapse<?php the_id(); ?>" class="collapse show" aria-labelledby=" heading
 						 <?php the_id(); ?>" data-parent="#accordionExample">
 
 							<?php the_content(); ?>

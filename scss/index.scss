@@ -1,29 +1,28 @@
 // hero section
 .hero {
+  height: 50vh;
   img {
     width: 100%;
   }
   .col-12 {
     padding: 0;
   }
-
 }
 
 #start {
-  width: 100vw; 
+  width: 100vw;
   height: 92vh;
   display: flex;
-  background-color: darken( white, 70% );
+  background-color: darken(white, 70%);
   background-repeat: no-repeat;
   background-blend-mode: multiply;
   flex-direction: column;
   justify-content: center;
 
-  p {
+  p  {
     color: white !important;
   }
 }
-
 
 // welcome section
 
@@ -35,19 +34,16 @@
     font-size: 1.4rem;
   }
 
-
   h1 {
     font-size: 7rem;
     color: $green;
   }
-
 }
 
 .welcome__certificates {
   display: flex;
   justify-content: center;
   margin-top: $l;
-
 }
 
 // news section
@@ -87,7 +83,6 @@
 }
 
 @media (min-width: $bp-lg) {
-
   #start {
     h1 {
       font-size: 8rem;
@@ -96,7 +91,5 @@
     p {
       font-size: $m;
     }
-
   }
-
 }
