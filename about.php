@@ -31,7 +31,7 @@ get_header();?>
             </div>
             <div class='row' > 
 
-                 <!--- Pierre ---> 
+                 <!--- Pierre --> 
                 <div class='col-md-6'>    
                     <div class="card" style="">
                         <img src="http://localhost:1234/knalten/wp-content/uploads/2019/05/20664808_1948488965438967_6808478277200124311_n-e1522616492130.jpeg" class="card-img-top" alt="...">
@@ -44,7 +44,7 @@ get_header();?>
                     </div>
                 </div>
 
-                <!--- Sonia --->
+                <!-- Sonia -->
                 <div class='col-md-6'>
                     <div class="card" style="">
                             <img src="http://knalten-eko.se/wp-content/uploads/2018/03/Sonia-Fleur-e1522690515727-300x201.jpg" class="card-img-top" alt="...">
@@ -59,7 +59,7 @@ get_header();?>
 </section>
 
 <div class='container contentabout'>
-                <!--- Varför flyttade vi till Sverige?--->
+                <!-- Varför flyttade vi till Sverige?-->
                 <div class='row flytta'>
                     <div class='col-md-6'>
                         <img  src='http://localhost:1234/knalten/wp-content/uploads/2019/05/P11901261.jpeg'>
@@ -74,14 +74,6 @@ get_header();?>
                     </div>
                 </div>
 
-                <!--- QUOTATION
-                <div class='row'>
-                    <div class='col-12'>
-                        <p>
-                        "För oss, liksom för mormor, är relationen och förtroendet mellan producent och kunder av yttersta vikt. Det är därför som vi tycker om lokalproducerat mat och ekologisk."
-                        </p>
-                    </div>
-                </div>--->
 </div>       
 
 

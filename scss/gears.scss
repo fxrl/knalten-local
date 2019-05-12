@@ -9,7 +9,6 @@
     margin-top: $m;
     .videoWrapper {
       margin: $s auto;
-      padding-top: $m;
       .videoText {
         text-align: left;
         padding-top: $m;
@@ -32,12 +31,12 @@
         font-weight: 200;
       }
       .orderButton {
-        margin-top: 0;
+        margin-top: $s;
       }
 
       .videoWrapper {
         margin: $s auto;
-        padding-top: $m;
+        padding-top: $s;
         .videoText {
           text-align: left;
           padding-top: $m;
@@ -50,7 +49,7 @@
     font-weight: 300;
   }
   .orderButton {
-    margin-top: $m;
+    margin-bottom: $m;
   }
 }
 .gearCartContainer {

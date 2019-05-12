@@ -17,12 +17,20 @@
 			<h2> BREDGREP</h2>
 			<h4 class="bredgrep"> Att ta vara på de traditionella metoderna
 			</h4>
-			<div class="container-fluid hero">
-				<div class="row">
-					<div class="col-12">
-						<img src='https://via.placeholder.com/1000x700'>
-					</div>
-				</div>
+		
+			<div class="row videoWrapper">
+			<div class="col-md-6 ">
+
+				<iframe width="100%" height="300px" src="https://www.youtube.com/embed/_ajrr9DLaxc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+				 allowfullscreen></iframe>
+			</div>
+			<div class="col-md-6 videoText">
+				<p>Bredgrep finns att köpa i Knaltens gårdsbutik eller på webbplatsen (se nedan). </p>
+				<p>Du kan antingen hämta din bredgrep direkt från Knalten, eller om du föredrar få den skickad med DHL.</p>
+				<h6>Frakten kostar 200 kronor i Sverige.</h6>
+			</div>
+		
+
 			</div>
 			<button class='btn btn-primary orderButton'>Beställa</button>
 
@@ -89,18 +97,6 @@
 
 			</div>
 		</div>
-		<div class="row videoWrapper">
-			<div class="col-md-6 ">
-
-				<iframe width="100%" height="300px" src="https://www.youtube.com/embed/_ajrr9DLaxc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-				 allowfullscreen></iframe>
-			</div>
-			<div class="col-md-6 videoText">
-				<p>Bredgrep finns att köpa i Knaltens gårdsbutik eller på webbplatsen (se nedan). </p>
-				<p>Du kan antingen hämta din bredgrep direkt från Knalten, eller om du föredrar få den skickad med DHL.</p>
-				<h6>Frakten kostar 200 kronor i Sverige.</h6>
-			</div>
-		</div>
 
 
 
@@ -125,7 +121,7 @@
 		<img class="card-img-top" src="<?php bloginfo('url');?>/wp-content/uploads/2019/05/3-taender.png" alt="Card image cap">
 		<div class="card-body">
 			<h5 class="card-title">3 Tänder</h5>
-			<p class="card-text">Att förbereda 35cm såbädd, lufta och luckra upp jord, skörda potatis, morötter, med mera.
+			<p class="card-text">Användbarhet: Att förbereda 35cm såbädd, lufta och luckra upp jord, skörda potatis, morötter, med mera.
 			</p>
 			<a href="#" class="btn gearTag">
 				<strong>Vikt</strong> 3.1 kg</a>
@@ -139,45 +135,45 @@
 		<img class="card-img-top" src="<?php bloginfo('url');?>/wp-content/uploads/2019/05/4-taender.png)" alt="Card image cap">
 
 		<div class="card-body">
-			<h5 class="card-title">3 Tänder</h5>
-			<p class="card-text">Att förbereda 35cm såbädd, lufta och luckra upp jord, skörda potatis, morötter, med mera.
+			<h5 class="card-title">4 Tänder</h5>
+			<p class="card-text">Användbarhet: Att förbereda 45cm såbädd, lufta och luckra upp jord, skörda potatis, morötter, med mera
 			</p>
 			<a href="#" class="btn gearTag">
-				<strong>Vikt</strong> 3.1 kg</a>
+				<strong>Vikt</strong> 3.8 kg</a>
 			<a href="#" class="btn gearTag">
-				<strong>Pris</strong> 1250SEK</a>
+				<strong>Pris</strong> 1350SEK</a>
 			<a href="#" class="btn gearTag">
-				<strong>Bredd </strong>ca 35cm</a>
+				<strong>Bredd </strong>ca 45cm</a>
 		</div>
 	</div>
 
 	<div class="card gearCart" style="width: 18rem;">
 		<img class="card-img-top" src="<?php bloginfo('url');?>/wp-content/uploads/2019/05/5-taender.png" alt="Card image cap">
 		<div class="card-body">
-			<h5 class="card-title">3 Tänder</h5>
-			<p class="card-text">Att förbereda 35cm såbädd, lufta och luckra upp jord, skörda potatis, morötter, med mera.
+			<h5 class="card-title">5 Tänder</h5>
+			<p class="card-text">Användbarhet: Att förbereda 55cm såbädd, lufta och luckra upp jord, skörda potatis, morötter, med mera.
 			</p>
 			<a href="#" class="btn gearTag">
-				<strong>Vikt</strong> 3.1 kg</a>
+				<strong>Vikt</strong> 4.3 kg</a>
 			<a href="#" class="btn gearTag">
-				<strong>Pris</strong> 1250SEK</a>
+				<strong>Pris</strong>1390SEK</a>
 			<a href="#" class="btn gearTag">
-				<strong>Bredd </strong>ca 35cm</a>
+				<strong>Bredd </strong>55cm</a>
 		</div>
 	</div>
 
 	<div class="card gearCart" style="width: 18rem;">
 		<img class="card-img-top" src="<?php bloginfo('url');?>/wp-content/uploads/2019/05/7-taender.png" alt="Card image cap">
 		<div class="card-body">
-			<h5 class="card-title">3 Tänder</h5>
-			<p class="card-text">Att förbereda 35cm såbädd, lufta och luckra upp jord, skörda potatis, morötter, med mera.
+			<h5 class="card-title">7 Tänder</h5>
+			<p class="card-text">Att förbereda 75 cm såbädd, lufta och luckra upp jord, skörda morötter. Bredgrep med 7 tänder tillverkas på begäran.
 			</p>
 			<a href="#" class="btn gearTag">
-				<strong>Vikt</strong> 3.1 kg</a>
+				<strong>Vikt</strong> 5 kg</a>
 			<a href="#" class="btn gearTag">
-				<strong>Pris</strong> 1250SEK</a>
+				<strong>Pris</strong> 2100SEK</a>
 			<a href="#" class="btn gearTag">
-				<strong>Bredd </strong>ca 35cm</a>
+				<strong>Bredd </strong>ca 75cm</a>
 		</div>
 	</div>
 

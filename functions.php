@@ -70,7 +70,8 @@ register_post_type( 'Vegetable-Bag',
               'singular_name' => __( 'Försäljningställ' )
           ),
           'public' => true,
-          'has_archive' => false
+          'has_archive' => false,
+          'supports' => array( 'thumbnail', 'title', 'editor' )
       )
   );
 }

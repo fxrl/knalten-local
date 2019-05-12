@@ -137,7 +137,18 @@
 /*Veggie bags form Styling*/
 
 .bagOrder {
+  form {
+    text-align: center;
+  }
   .text {
+    .bagimagewrapper {
+      margin: 0 auto;
+      text-align: center;
+      img {
+        width: 200px;
+      }
+    }
+
     @media screen and (min-width: $bp-md) {
       padding: $m 0;
       p {
@@ -154,6 +165,7 @@
         input[type="submit"] {
           width: 200px !important;
         }
+        text-align: left !important;
       }
     }
   }
