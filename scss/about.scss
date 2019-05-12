@@ -45,6 +45,53 @@
     h2{
         margin-top: $m;
         color: white;
+.paknalten{
+    text-align: center;
+    padding-bottom: $l;
+
+    h1{
+        font-size: 5rem;
+        color: $green;
+        margin-top:$l;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+
+    h2{
+        color: $rose;
+    }
+
+    img{
+        width: 30%;
+    }
+}
+
+.whoarewe{
+    background-color: $rose;
+    color:white;
+}
+
+
+@media (min-width: $bp-lg) {
+    .container {
+      max-width: 940px;
+    }
+    img{
+        width: 30%;
+    }
+}
+
+@media (max-width: $bp-sm){
+    img{
+        width: 60%;
+    }
+}
+
+@media (max-width: $bp-md) {
+    .container {
+      max-width: 640px;
     }
 }
 
