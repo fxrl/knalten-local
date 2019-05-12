@@ -1,3 +1,52 @@
+@media (min-width: 992px) {
+    .contentabout {
+      max-width: 940px; 
+    } 
+}
+
+@media (max-width: 768px) {
+    .contentabout {
+      max-width: 640px; 
+    } 
+}
+
+.omoss{
+    text-align: center;
+    h1{
+        font-size:5rem;
+        color:$green;
+    }
+    h2{
+        color:$rose;
+    }
+    
+}
+
+//img drawing sizes ugrrrr
+@media (min-width: $bp-md) {
+    .drawing {
+        width: 40% !important;
+    }
+}
+@media(max-width: $bp-sm){
+    .drawing{
+        width: 70%;
+    }
+}
+@media(min-width: $bp-sm){
+    .drawing{
+        width: 40%;
+    }
+}
+
+.whoarewe{
+    background-color: $rose;
+    padding-bottom: $l;
+    h2{
+        margin-top: $m;
+        color: white;
+    }
+}
 .paknalten{
     text-align: center;
     padding-bottom: $l;
@@ -21,16 +70,7 @@
     }
 }
 
-.whoarewe{
-    background-color: $rose;
-    color:white;
-}
-
-
 @media (min-width: $bp-lg) {
-    .container {
-      max-width: 940px;
-    }
     img{
         width: 30%;
     }
@@ -42,10 +82,43 @@
     }
 }
 
-@media (max-width: $bp-md) {
-    .container {
-      max-width: 640px;
+.card-title{
+    color:$green;
+    text-align: center;
+    font-family: "Amatic SC";
+    font-weight: 700;
+}
+//Varför flyttade vi till Sverige?
+.flytta{
+    margin-top: $l;
+    margin-bottom:$l;
+    text-align: center;
+    h2{
+        color: $green;
+    }
+    p{
+        text-align: center;
+    }
+    img{
+        width: 100%;
+    }
+    .btn-primary{
+        width: 300px;
     }
 }
 
-  
+@media (min-width: $bp-md){
+    .flytta{
+        h2{
+            text-align: left;
+        }
+        p{
+            text-align: left;
+        }
+        .btn-primary{
+            float: left;
+        }
+    }  
+}
+
+
