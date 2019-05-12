@@ -70,16 +70,7 @@
     }
 }
 
-.whoarewe{
-    background-color: $rose;
-    color:white;
-}
-
-
 @media (min-width: $bp-lg) {
-    .container {
-      max-width: 940px;
-    }
     img{
         width: 30%;
     }
@@ -88,12 +79,6 @@
 @media (max-width: $bp-sm){
     img{
         width: 60%;
-    }
-}
-
-@media (max-width: $bp-md) {
-    .container {
-      max-width: 640px;
     }
 }
 
@@ -107,12 +92,33 @@
 .flytta{
     margin-top: $l;
     margin-bottom:$l;
-    text-align: left;
+    text-align: center;
     h2{
         color: $green;
-        text-align: left;
+    }
+    p{
+        text-align: center;
     }
     img{
         width: 100%;
     }
+    .btn-primary{
+        width: 300px;
+    }
 }
+
+@media (min-width: $bp-md){
+    .flytta{
+        h2{
+            text-align: left;
+        }
+        p{
+            text-align: left;
+        }
+        .btn-primary{
+            float: left;
+        }
+    }  
+}
+
+

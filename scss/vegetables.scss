@@ -8,6 +8,13 @@
   h2 {
     font-size: $m !important;
   }
+  h3 {
+    color: $green;
+    width: 300px;
+    text-align: center;
+    margin: 1rem auto;
+  }
+
   .desktopText {
     display: none;
   }
@@ -32,6 +39,8 @@
       h3 {
         color: $green;
         padding-top: $m;
+        text-align: left;
+        width: 100%;
       }
       .deskCertificate {
         img {
@@ -67,6 +76,7 @@
 
 .monthly-vegetable-wrapper {
   padding: $l 0;
+  padding-bottom: $s;
 
   @media screen and (min-width: $bp-md) {
     padding: $m 0;

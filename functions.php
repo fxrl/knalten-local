@@ -78,4 +78,3 @@ register_post_type( 'Vegetable-Bag',
 add_action( 'init', 'create_posttype' );
 
 
-

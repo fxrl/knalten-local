@@ -7,6 +7,14 @@
   .mobileText {
     display: block;
     margin-top: $m;
+    .videoWrapper {
+      margin: $s auto;
+      padding-top: $m;
+      .videoText {
+        text-align: left;
+        padding-top: $m;
+      }
+    }
   }
   @media screen and (min-width: $bp-md) {
     .mobileText {
@@ -17,7 +25,7 @@
 
       h2 {
         text-align: left;
-        font-size: $m !important;
+        font-size: $l !important;
       }
       h4 {
         font-size: $s !important;
@@ -25,6 +33,15 @@
       }
       .orderButton {
         margin-top: 0;
+      }
+
+      .videoWrapper {
+        margin: $s auto;
+        padding-top: $m;
+        .videoText {
+          text-align: left;
+          padding-top: $m;
+        }
       }
     }
   }

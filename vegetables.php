@@ -5,8 +5,9 @@
 <!-- hero-section -->
 <div class="container-fluid hero">
 	<div class="row">
-		<div class="col-12">
-			<img src='https://via.placeholder.com/1000x700'>
+		<div class='col-12' style='background-image:url("<?php bloginfo(' url
+		 ');?>/wp-content/uploads/2019/05/11923283_1621094888178378_2479816677319015749_o.jpeg"); background-size: cover;'>
+
 		</div>
 	</div>
 </div>
@@ -67,7 +68,6 @@
 
 
 <!-- monthly vegetable section -->
-
 <section class='monthly-vegetable-wrapper'>
 	<div class="container monthly-vegetable">
 		<div class="row">
@@ -79,7 +79,8 @@
 
 			<?php 
             $args = array( 
-              'post_type' => 'Monthly-Vegetable'
+			  'post_type' => 'Monthly-Vegetable',
+			  'order_by' => 'post_date'
             );
           $the_query = new WP_Query( $args );
 			if ( $the_query->have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
@@ -94,8 +95,8 @@
 							</button>
 						</div>
 
-						<div id="collapse<?php the_id(); ?>" class="collapse show" aria-labelledby=" heading"
-						 <?php the_id(); ?>" data-parent="#accordionExample">
+						<div id="collapse<?php the_id(); ?>" class="collapse" aria-labelledby=" heading"
+						 <?php the_id(); ?> data-parent="#accordionExample">
 
 							<?php the_content(); ?>
 
@@ -112,6 +113,8 @@
 		</div>
 	</div>
 </section>
+
+
 
 <!-- vegetables general info part two section -->
 <div class="container introProducts">
