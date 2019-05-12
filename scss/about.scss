@@ -1,57 +1,75 @@
-// .paknalten{
-//     text-align: center;
-//     padding-bottom: $l;
-//     h1{
-//         font-size: 5rem;
-//         color: $green;
-//         margin-top:$l;
-//     }
-//     p{
-//         font-size: 1rem;
-//     }
-//     h2{
-//         color: $rose;
-//     }
-//     img{
-//         width: 30%;
-//     }
-//     @media (min-width: $bp-lg) {
-//         .container {
-//           max-width: 940px;
-//         }
-//         img{
-//             width: 30%;
-//         }
-//     }
+@media (min-width: 992px) {
+    .contentabout {
+      max-width: 940px; 
+    } 
+}
 
-//     @media (max-width: $bp-sm){
-//         img{
-//             width: 60%;
-//         }
-//     }
+@media (max-width: 768px) {
+    .contentabout {
+      max-width: 640px; 
+    } 
+}
 
-//     @media (max-width: $bp-md) {
-//         .container {
-//           max-width: 640px;
-//         }
-//     }
-// }
+.omoss{
+    text-align: center;
+    h1{
+        font-size:5rem;
+        color:$green;
+    }
+    h2{
+        color:$rose;
+    }
+    
+}
 
-// .whoarewe{
-//     background-color: $rose;
-//     color:white;
-//     @media (min-width: $bp-lg) {
-//         .container {
-//           max-width: 940px;
-//         }
-//     }
-//     @media (max-width: $bp-md) {
-//         .container {
-//           max-width: 640px;
-//         }
-//     }
-// }
-// }
+//img drawing sizes ugrrrr
+@media (min-width: $bp-md) {
+    .drawing {
+        width: 40% !important;
+    }
+}
+@media(max-width: $bp-sm){
+    .drawing{
+        width: 70%;
+    }
+}
+@media(min-width: $bp-sm){
+    .drawing{
+        width: 40%;
+    }
+}
 
+.whoarewe{
+    background-color: $rose;
+    padding-bottom: $l;
+    h2{
+        margin-top: $m;
+        color: white;
+    }
+}
 
-  
+// cards
+.card{
+    //margin-left: auto;
+    //margin-right:auto;
+}
+
+.card-title{
+    color:$green;
+    text-align: center;
+    font-family: "Amatic SC";
+    font-weight: 700;
+}
+//Varför flyttade vi till Sverige?
+.flytta{
+    margin-top: $l;
+    margin-bottom:$l;
+    text-align: left;
+    h2{
+        color: $green;
+        text-align: left;
+    }
+    img{
+        width: 100%;
+    }
+}
