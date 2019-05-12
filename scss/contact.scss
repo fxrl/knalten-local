@@ -1,11 +1,21 @@
 .contact {
+    margin-top: $l;
+
     h1 {
         color: $green;
         font-size: $l;
     }
 }
 
+.contact__info__wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: $l;
+}
+
+
 .contact__info {
+    max-width: 500px;
     margin: $l 0;
     padding: $m;
     border-radius: 10px;
@@ -25,5 +35,47 @@
 
     li {
         list-style: none;
+    }
+}
+
+.faq {
+    .card {
+        border: none;
+    }
+
+    .card-header {
+        background: $green;
+
+        .btn-link {
+            color: white;
+            text-decoration: none;
+            font-family: 'Lato';
+            font-weight: 700;
+        }
+
+        .fa-plus-circle {
+            margin-right: $s;
+        }
+    }
+
+    h3 {
+        font-family: 'Amatic SC';
+        text-align: center;
+        color: $green;
+    }
+
+    .form__wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact__form {
+        margin-top: $m;
+    }
+}
+
+@media (min-width: $bp-lg) {
+    .faq .contact__form {
+        margin-top: 0;
     }
 }

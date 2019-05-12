@@ -1,5 +1,7 @@
 <?php 
 
+add_theme_support( 'post-thumbnails' );
+
 require_once('class-wp-bootstrap-navwalker.php');
 
 // enqeue functions
