@@ -1,14 +1,5 @@
 <?php get_header() ?>
 
-<!-- hero-section -->
-<!-- <div class="container-fluid hero">
-    <div class="row">
-      <div class="col-12">
-        <img src='https://via.placeholder.com/1000x200'>
-      </div>
-    </div>
-</div> -->
-
 <!-- welcome section -->
 <section id='start' style='background-image:url("<?php bloginfo( 'url' );?>/wp-content/uploads/2019/05/start.jpg"); background-size: cover;'>
   <div class="container welcome">

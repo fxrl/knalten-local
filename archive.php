@@ -24,47 +24,16 @@ Template Name: Archives
   </div>
 </div>
 
-
 <!-- news section -->
 <section class='latest-news-wrapper'>
   <div class="container latest-news">
     <div class="row">
-          <!-- the loop -->
-          <?php 
-            $args = array( 
-              'post_type' => 'post',
-            );
-          $the_query = new WP_Query( $args );
-          if ( $the_query->have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-          <div class="col-md-6">
-            <div class="card latest-post">
-              <?php 
-                $thumb = $dynamic_featured_image->get_featured_images([get_the_id()]);
-              ?>
-              <?php 
-              if ($thumb[0]['full'])
-                
-                echo "
-                  <img class='card-img-top' src='". $thumb[0]['full'] ."' alt='Card image cap'>                
-                "
-              
-              ?>
-
-              <div class="card-body">
-                <h5 class="card-title">		
-                    <?php the_title(); ?>
-                </h5>
-                <span class="badge badge-success">
-                    <?php the_date(); ?>
-                </span>
-                <p class="card-text">	<?php the_excerpt(); ?></p>
-                <a href="<?php the_permalink() ?>">Read More</a>
-              </div>
-            </div>
-          </div>
-      <?php endwhile; else: ?>
+    <?php if (have_posts()) : while (have_posts()) : the_post();?>
+  <?php echo do_shortcode('[ajax_load_more container_type="div" post_type="post" posts_per_page="4"]') ?>
+<?php endwhile; else: ?>
       <p>There no posts to show</p>
       <?php endif; ?>
+    
     </div>
   </div>
 </section>

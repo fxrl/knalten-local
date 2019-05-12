@@ -19,7 +19,7 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-12">
+    <div class="col-12 contact__info__wrapper">
         <div class="contact__info">
             <h3>Knaltens Ekologiska Grönsaker</h3>
             <ul>
@@ -35,10 +35,9 @@
 </div>
 
 <!-- faq section -->
-<section class='latest-news-wrapper'>
-  <div class="container latest-news">
+  <div class="container faq">
     <div class="row">
-        <div class="col-12">
+        <div class="col-12 col-lg-6">
           <h2>Vanliga Frågor</h2>
 
           <!-- accordion -->
@@ -54,12 +53,13 @@
               <div class="card-header" id="heading<?php the_id(); ?>">
                 <h2 class="mb-0">
                   <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse<?php the_id(); ?>" aria-expanded="true" aria-controls="collapse<?php the_id(); ?>">
+                  <i class="fas fa-plus-circle"></i>
                     <?php the_title(); ?>
                   </button>
                 </h2>
               </div>
 
-              <div id="collapse<?php the_id(); ?>" class="collapse show" aria-labelledby=""heading<?php the_id(); ?>" data-parent="#accordionExample">
+              <div id="collapse<?php the_id(); ?>" class="collapse" aria-labelledby=""heading<?php the_id(); ?>" data-parent="#accordionExample">
                 <div class="card-body">
                   <?php the_content(); ?>
                 </div>
@@ -70,22 +70,24 @@
       <?php endif; ?>
           </div>
         </div>
+
+      <div class="col-12 col-lg-6 contact__form">
+        <h2>Vill Veta Mer</h2>
+        <h3>Skicka oss et e-mail</h3>
+        <div class='form__wrapper'>
+          <?php echo do_shortcode( '[contact-form-7 id="39" title="Contact form 1"]' ); ?>
+        </div>
+      </div>
+      
     </div>
   </div>
-</section>
-
 <!-- contact form -->
 <div class="container">
     <div class="row">
-      <div class="col-12">
-        <h2>Vill Veta Mer</h2>
-        <h3>Skicka oss et e-mail</h3>
-      </div>
+      
     </div>
     <div class="row">
-            <div class="col">
-              <?php echo do_shortcode( '[contact-form-7 id="39" title="Contact form 1"]' ); ?>
-            </div>
+
     </div>
 </div>
 

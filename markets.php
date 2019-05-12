@@ -30,7 +30,7 @@
             );
         $the_query = new WP_Query( $args );
         if ( $the_query->have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-        <div class="col-md-6 col-lg-3">
+        <div class="col-md-6">
             <div class="card">
               <img class="card-img-top" src="https://via.placeholder.com/100" alt="Card image cap">
               <div class="card-body markets__card-body">
