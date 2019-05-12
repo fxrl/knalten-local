@@ -94,6 +94,9 @@
 			<p class="p-3">Om ni vill prenumerera på en grönsakasse under en period är det självklart också möjligt, allt ni behöver göra är att
 				skicka oss en förfrågan.
 			</p>
+			<div class="col-md-6">
+			<img src="<?php bloginfo('url');?>/wp-content/uploads/2019/05/sacman.png">
+			</div>
 		</div>
 		<div class="col-md-6 bagOrderForm">
 			<?php echo do_shortcode('[contact-form-7 id="58" title="Grönskasse Förfråga"]'); ?>

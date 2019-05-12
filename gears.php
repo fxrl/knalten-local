@@ -122,7 +122,7 @@
 </div>
 <div class="scrolling-wrapper-flexbox">
 	<div class="card gearCart" style="width: 18rem;">
-		<img class="card-img-top" src="<?php bloginfo('url');?>/wp-content/uploads/2019/05/16641971_1114838215311127_1968561954763046912_n.jpeg")" alt="Card image cap">
+		<img class="card-img-top" src="<?php bloginfo('url');?>/wp-content/uploads/2019/05/3-taender.png" alt="Card image cap">
 		<div class="card-body">
 			<h5 class="card-title">3 Tänder</h5>
 			<p class="card-text">Att förbereda 35cm såbädd, lufta och luckra upp jord, skörda potatis, morötter, med mera.
@@ -136,7 +136,8 @@
 		</div>
 	</div>
 	<div class="card gearCart" style="width: 18rem;">
-		<img class="card-img-top" src="https://via.placeholder.com/300" alt="Card image cap">
+		<img class="card-img-top" src="<?php bloginfo('url');?>/wp-content/uploads/2019/05/4-taender.png)" alt="Card image cap">
+
 		<div class="card-body">
 			<h5 class="card-title">3 Tänder</h5>
 			<p class="card-text">Att förbereda 35cm såbädd, lufta och luckra upp jord, skörda potatis, morötter, med mera.
@@ -151,7 +152,7 @@
 	</div>
 
 	<div class="card gearCart" style="width: 18rem;">
-		<img class="card-img-top" src="https://via.placeholder.com/300" alt="Card image cap">
+		<img class="card-img-top" src="<?php bloginfo('url');?>/wp-content/uploads/2019/05/5-taender.png" alt="Card image cap">
 		<div class="card-body">
 			<h5 class="card-title">3 Tänder</h5>
 			<p class="card-text">Att förbereda 35cm såbädd, lufta och luckra upp jord, skörda potatis, morötter, med mera.
@@ -166,7 +167,7 @@
 	</div>
 
 	<div class="card gearCart" style="width: 18rem;">
-		<img class="card-img-top" src="https://via.placeholder.com/300" alt="Card image cap">
+		<img class="card-img-top" src="<?php bloginfo('url');?>/wp-content/uploads/2019/05/7-taender.png" alt="Card image cap">
 		<div class="card-body">
 			<h5 class="card-title">3 Tänder</h5>
 			<p class="card-text">Att förbereda 35cm såbädd, lufta och luckra upp jord, skörda potatis, morötter, med mera.
