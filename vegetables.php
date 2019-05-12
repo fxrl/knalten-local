@@ -3,10 +3,9 @@
 <?php get_header() ?>
 
 <!-- hero-section -->
-<div class="container-fluid hero">
+<div class='container-fluid hero' style='background-image:url("<?php bloginfo('url');?>/wp-content/uploads/2019/05/11923283_1621094888178378_2479816677319015749_o.jpeg"); background-size: cover; background-position:bottom;'>
 	<div class="row">
-		<div class='col-12' style='background-image:url("<?php bloginfo(' url
-		 ');?>/wp-content/uploads/2019/05/11923283_1621094888178378_2479816677319015749_o.jpeg"); background-size: cover;'>
+		<div class='col-12' >
 
 		</div>
 	</div>
