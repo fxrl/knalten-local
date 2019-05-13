@@ -11,17 +11,33 @@
 
 #start {
   width: 100vw;
-  height: 92vh;
+  height: 100vh;
   display: flex;
-  background-color: darken(white, 70%);
+  background-color: lighten(black, 20%);
   background-repeat: no-repeat;
-  background-blend-mode: multiply;
+  background-blend-mode: overlay;
   flex-direction: column;
   justify-content: center;
 
   p  {
     color: white !important;
   }
+}
+
+.intro__text {
+  margin: $l 0;
+  text-align: center;
+
+  h2 {
+    color: $green;
+    font-size: 5rem;
+  }
+
+  #bredgrep__link {
+    color: $green;
+    font-weight: 700;
+  }
+  
 }
 
 // welcome section
@@ -31,19 +47,27 @@
   padding: $l $m;
 
   p {
-    font-size: 1.4rem;
+    font-size: 1rem;
   }
 
   h1 {
-    font-size: 7rem;
-    color: $green;
+    font-size: 9rem;
+    color: $rose;
+  }
+
+  h2 {
+    font-weight: 300;
+    font-family: 'Lato';
+    color: white;
+    font-size: 2rem;
   }
 }
 
 .welcome__certificates {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   margin-top: $l;
+  color: white;
+  font-size: 3rem;
 }
 
 // news section
@@ -71,10 +95,12 @@
   .card-title {
     font-weight: 700;
     text-transform: capitalize;
+    font-family: 'Lato';
   }
 
   img {
     width: 100%;
+    height: auto;
   }
 
   a {
@@ -82,14 +108,21 @@
   }
 }
 
+.ajax-load-more-wrap.green .alm-load-more-btn {
+  background-color: $green;
+}
+
 @media (min-width: $bp-lg) {
   #start {
     h1 {
-      font-size: 8rem;
-      // color: $rose;
+      font-size: 15rem;
+    }
+
+    h2 {
+      font-size: 5rem;
     }
     p {
-      font-size: $m;
+      font-size: 1.5rem;
     }
   }
 }

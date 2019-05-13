@@ -12,9 +12,30 @@
 
 .ajax__wrapper {
     display: block;
+    margin: auto 0;
+    padding: $s !important;
 }
 
 .shitfuck {
-    width: 50%;
+    // width: 45%;
+    // margin: 0 2.5% 2.5% 0;
     display: inline-block;
 }
+
+.card-image-top {
+    height: 200px !important;
+    overflow: hidden !important;
+}
+
+@media screen and (min-width: $bp-md) {
+    .shitfuck {
+        width: 45%;
+        margin: 0 2.5% 2.5% 0;
+        display: inline-block;
+    }
+
+    .shitfuck:nth-child(2n) {
+        margin-right: 0;
+    }
+}
+

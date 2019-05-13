@@ -7,11 +7,6 @@ Template Name: Archives
 
 <!-- hero-section -->
 <div class="container-fluid hero">
-    <div class="row">
-      <div class="col-12">
-        <img src='https://via.placeholder.com/1000x700'>
-      </div>
-    </div>
 </div>
 
 <!-- welcome section -->
@@ -28,8 +23,11 @@ Template Name: Archives
 <section class='latest-news-wrapper'>
   <div class="container latest-news">
     <div class="row">
-    <?php if (have_posts()) : while (have_posts()) : the_post();?>
-  <?php echo do_shortcode('[ajax_load_more container_type="div" post_type="post" posts_per_page="4"]') ?>
+    <?php 
+    if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+    
+  <?php // echo do_shortcode('[ajax_load_more container_type="div" post_type="post" posts_per_page="4"]') ?>
+  <?php echo do_shortcode('[ajax_load_more post_type="post" posts_per_page="4" scroll="false" images_loaded="true" button_label="Ladda mer" button_loading_label="Laddning"]') ?>
 <?php endwhile; else: ?>
       <p>There no posts to show</p>
       <?php endif; ?>

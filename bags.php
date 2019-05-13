@@ -10,7 +10,7 @@
 <div class="container introProducts">
 	<div class="row">
 		<div class="col-sm">
-			<h1> Grönsakkskasse</h1>
+			<h1>Kassar</h1>
 			<div class="mobileText">
 				<p>Vi säljer våra grönsaker hemma hos oss på gårdsbutiken som är öppen varje vecka, på marknaden i Ulricehamn varje lördag,
 					samt hos Reko-Ring där ni kommer att kunna köpa våra fantastiska grönsakskassar. Precis som i Frankrike där grönsakshandlaren
@@ -88,7 +88,7 @@
 <div class="container bagOrder">
 	<div class="row">
 		<div class="col-md-6 text">
-			<h2>Skicka en förfråga om grönsakasse
+			<h2>Skicka en förfråga om kassar
 			</h2>
 
 			<p class="p-3">Om ni vill prenumerera på en grönsakasse under en period är det självklart också möjligt, allt ni behöver göra är att

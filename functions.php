@@ -1,6 +1,7 @@
 <?php 
 
 add_theme_support( 'post-thumbnails' );
+add_image_size( 'wordpress-thumbnail', 200, 200, TRUE );
 
 require_once('class-wp-bootstrap-navwalker.php');
 

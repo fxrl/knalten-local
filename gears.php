@@ -13,8 +13,6 @@
 			<h1> Bredgrep</h1>
 		</div>
 		<div class="col-md-6 mobileText">
-
-			<h2> BREDGREP</h2>
 			<h4 class="bredgrep"> Att ta vara på de traditionella metoderna
 			</h4>
 		
