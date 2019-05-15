@@ -1,0 +1,12 @@
+.juridisk {
+  margin-top: $l;
+  text-align: left;
+  .col-sm-12 {
+    h4 {
+      color: $rose !important ;
+    }
+  }
+  span {
+    color: $rose;
+  }
+}
